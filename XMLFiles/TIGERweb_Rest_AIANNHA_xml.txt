@@ -1,0 +1,562 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<currentVersion>10.51</currentVersion>
+<serviceDescription/>
+<mapName>American Indian, Alaska Native, and Native Hawaiian Areas</mapName>
+<description>Alaska Native Regional Corporations (ANRC), Tribal Subdivisions, American Indian Reservations (AIR), Hawaiian Home Lands (HHL), Alaska Native Village Statistical Areas (ANVSA), Oklahoma Tribal Statistical Areas (OTSA), State Designated Tribal Statistical Areas (SDTSA), Tribal Designated Statistical Areas (TDSA), American Indian Joint-Use Areas (AIJUA)</description>
+<copyrightText>Source: U.S. Census Bureau</copyrightText>
+<supportsDynamicLayers>false</supportsDynamicLayers>
+<layers>
+	<id>0</id>
+	<name>Alaska Native Regional Corporations</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>22000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>1</id>
+	<name>Tribal Subdivisions</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>2500000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>2</id>
+	<name>Federal American Indian Reservations</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>22000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>3</id>
+	<name>Off-Reservation Trust Lands</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>22000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>4</id>
+	<name>State American Indian Reservations</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>2500000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>5</id>
+	<name>Hawaiian Home Lands</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>2500000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>6</id>
+	<name>Alaska Native Village Statistical Areas</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>22000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>7</id>
+	<name>Oklahoma Tribal Statistical Areas</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>22000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>8</id>
+	<name>State Designated Tribal Statistical Areas</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>12000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>9</id>
+	<name>Tribal Designated Statistical Areas</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>6000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>10</id>
+	<name>American Indian Joint-Use Areas</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>6000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>11</id>
+	<name>ACS 2019</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>12</subLayerIds>
+	<subLayerIds>13</subLayerIds>
+	<subLayerIds>14</subLayerIds>
+	<subLayerIds>15</subLayerIds>
+	<subLayerIds>16</subLayerIds>
+	<subLayerIds>17</subLayerIds>
+	<subLayerIds>18</subLayerIds>
+	<subLayerIds>19</subLayerIds>
+	<subLayerIds>20</subLayerIds>
+	<subLayerIds>21</subLayerIds>
+	<subLayerIds>22</subLayerIds>
+	<minScale>0</minScale>
+	<maxScale>0</maxScale>
+</layers>
+<layers>
+	<id>12</id>
+	<name>Alaska Native Regional Corporations</name>
+	<parentLayerId>11</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>22000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>13</id>
+	<name>Tribal Subdivisions</name>
+	<parentLayerId>11</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>2500000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>14</id>
+	<name>Federal American Indian Reservations</name>
+	<parentLayerId>11</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>22000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>15</id>
+	<name>Off-Reservation Trust Lands</name>
+	<parentLayerId>11</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>22000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>16</id>
+	<name>State American Indian Reservations</name>
+	<parentLayerId>11</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>2500000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>17</id>
+	<name>Hawaiian Home Lands</name>
+	<parentLayerId>11</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>2500000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>18</id>
+	<name>Alaska Native Village Statistical Areas</name>
+	<parentLayerId>11</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>22000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>19</id>
+	<name>Oklahoma Tribal Statistical Areas</name>
+	<parentLayerId>11</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>22000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>20</id>
+	<name>State Designated Tribal Statistical Areas</name>
+	<parentLayerId>11</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>12000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>21</id>
+	<name>Tribal Designated Statistical Areas</name>
+	<parentLayerId>11</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>6000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>22</id>
+	<name>American Indian Joint-Use Areas</name>
+	<parentLayerId>11</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>6000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>23</id>
+	<name>ACS 2018</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>24</subLayerIds>
+	<subLayerIds>25</subLayerIds>
+	<subLayerIds>26</subLayerIds>
+	<subLayerIds>27</subLayerIds>
+	<subLayerIds>28</subLayerIds>
+	<subLayerIds>29</subLayerIds>
+	<subLayerIds>30</subLayerIds>
+	<subLayerIds>31</subLayerIds>
+	<subLayerIds>32</subLayerIds>
+	<subLayerIds>33</subLayerIds>
+	<subLayerIds>34</subLayerIds>
+	<minScale>0</minScale>
+	<maxScale>0</maxScale>
+</layers>
+<layers>
+	<id>24</id>
+	<name>Alaska Native Regional Corporations</name>
+	<parentLayerId>23</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>22000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>25</id>
+	<name>Tribal Subdivisions</name>
+	<parentLayerId>23</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>2500000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>26</id>
+	<name>Federal American Indian Reservations</name>
+	<parentLayerId>23</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>22000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>27</id>
+	<name>Off-Reservation Trust Lands</name>
+	<parentLayerId>23</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>22000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>28</id>
+	<name>State American Indian Reservations</name>
+	<parentLayerId>23</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>2500000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>29</id>
+	<name>Hawaiian Home Lands</name>
+	<parentLayerId>23</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>2500000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>30</id>
+	<name>Alaska Native Village Statistical Areas</name>
+	<parentLayerId>23</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>22000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>31</id>
+	<name>Oklahoma Tribal Statistical Areas</name>
+	<parentLayerId>23</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>22000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>32</id>
+	<name>State Designated Tribal Statistical Areas</name>
+	<parentLayerId>23</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>12000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>33</id>
+	<name>Tribal Designated Statistical Areas</name>
+	<parentLayerId>23</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>6000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>34</id>
+	<name>American Indian Joint-Use Areas</name>
+	<parentLayerId>23</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>6000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>35</id>
+	<name>Census 2010</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>36</subLayerIds>
+	<subLayerIds>37</subLayerIds>
+	<subLayerIds>38</subLayerIds>
+	<subLayerIds>39</subLayerIds>
+	<subLayerIds>40</subLayerIds>
+	<subLayerIds>41</subLayerIds>
+	<subLayerIds>42</subLayerIds>
+	<subLayerIds>43</subLayerIds>
+	<subLayerIds>44</subLayerIds>
+	<subLayerIds>45</subLayerIds>
+	<subLayerIds>46</subLayerIds>
+	<minScale>0</minScale>
+	<maxScale>0</maxScale>
+</layers>
+<layers>
+	<id>36</id>
+	<name>Alaska Native Regional Corporations</name>
+	<parentLayerId>35</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>22000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>37</id>
+	<name>Tribal Subdivisions</name>
+	<parentLayerId>35</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>2500000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>38</id>
+	<name>Federal American Indian Reservations</name>
+	<parentLayerId>35</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>22000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>39</id>
+	<name>Off-Reservation Trust Lands</name>
+	<parentLayerId>35</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>22000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>40</id>
+	<name>State American Indian Reservations</name>
+	<parentLayerId>35</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>2500000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>41</id>
+	<name>Hawaiian Home Lands</name>
+	<parentLayerId>35</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>2500000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>42</id>
+	<name>Alaska Native Village Statistical Areas</name>
+	<parentLayerId>35</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>22000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>43</id>
+	<name>Oklahoma Tribal Statistical Areas</name>
+	<parentLayerId>35</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>22000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>44</id>
+	<name>State Designated Tribal Statistical Areas</name>
+	<parentLayerId>35</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>12000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>45</id>
+	<name>Tribal Designated Statistical Areas</name>
+	<parentLayerId>35</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>6000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>46</id>
+	<name>American Indian Joint-Use Areas</name>
+	<parentLayerId>35</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>6000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>47</id>
+	<name>American Indian, Alaska Native, and Native Hawaiian Areas</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>0</minScale>
+	<maxScale>0</maxScale>
+</layers>
+<spatialReference>
+	<wkid>102100</wkid>
+	<latestWkid>3857</latestWkid>
+</spatialReference>
+<singleFusedMapCache>false</singleFusedMapCache>
+<initialExtent>
+	<xmin>-1309290.809505552</xmin>
+	<ymin>-3.4803535453706995E7</ymin>
+	<xmax>6.557750963076201E7</xmax>
+	<ymax>1.2715726251483094E7</ymax>
+	<spatialReference>
+		<wkid>102100</wkid>
+		<latestWkid>3857</latestWkid>
+	</spatialReference>
+</initialExtent>
+<fullExtent>
+	<xmin>-20037700</xmin>
+	<ymin>-9992843.3729</ymin>
+	<xmax>2.04588132542E7</xmax>
+	<ymax>3.05036698813E7</ymax>
+	<spatialReference>
+		<wkid>102100</wkid>
+		<latestWkid>3857</latestWkid>
+	</spatialReference>
+</fullExtent>
+<minScale>0</minScale>
+<maxScale>0</maxScale>
+<units>esriMeters</units>
+<supportedImageFormatTypes>PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP</supportedImageFormatTypes>
+<documentInfo>
+	<Title/>
+	<Author/>
+	<Comments/>
+	<Subject/>
+	<Category/>
+	<AntialiasingMode>None</AntialiasingMode>
+	<TextAntialiasingMode>Force</TextAntialiasingMode>
+	<Keywords/>
+</documentInfo>
+<capabilities>Map,Data,Query</capabilities>
+<supportedQueryFormats>JSON, AMF, geoJSON</supportedQueryFormats>
+<exportTilesAllowed>false</exportTilesAllowed>
+<datumTransformations>
+	<geoTransforms>
+		<wkid>108001</wkid>
+		<latestWkid>1241</latestWkid>
+		<transformForward>true</transformForward>
+		<name>NAD_1927_To_NAD_1983_NADCON</name>
+	</geoTransforms>
+</datumTransformations>
+<datumTransformations>
+	<geoTransforms>
+		<wkid>108001</wkid>
+		<latestWkid>1241</latestWkid>
+		<transformForward>false</transformForward>
+		<name>NAD_1927_To_NAD_1983_NADCON</name>
+	</geoTransforms>
+</datumTransformations>
+<datumTransformations>
+	<geoTransforms>
+		<wkt>GEOGTRAN[&quot;WGS_1984_Major_Auxiliary_Sphere_To_WGS_1984&quot;,GEOGCS[&quot;GCS_WGS_1984_Major_Auxiliary_Sphere&quot;,DATUM[&quot;D_WGS_1984_Major_Auxiliary_Sphere&quot;,SPHEROID[&quot;WGS_1984_Major_Auxiliary_Sphere&quot;,6378137.0,0.0]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],GEOGCS[&quot;GCS_WGS_1984&quot;,DATUM[&quot;D_WGS_1984&quot;,SPHEROID[&quot;WGS_1984&quot;,6378137.0,298.257223563]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],METHOD[&quot;Longitude_Rotation&quot;]]</wkt>
+		<transformForward>true</transformForward>
+		<name>WGS_1984_Major_Auxiliary_Sphere_To_WGS_1984</name>
+	</geoTransforms>
+</datumTransformations>
+<datumTransformations>
+	<geoTransforms>
+		<wkt>GEOGTRAN[&quot;WGS_1984_Major_Auxiliary_Sphere_To_WGS_1984&quot;,GEOGCS[&quot;GCS_WGS_1984_Major_Auxiliary_Sphere&quot;,DATUM[&quot;D_WGS_1984_Major_Auxiliary_Sphere&quot;,SPHEROID[&quot;WGS_1984_Major_Auxiliary_Sphere&quot;,6378137.0,0.0]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],GEOGCS[&quot;GCS_WGS_1984&quot;,DATUM[&quot;D_WGS_1984&quot;,SPHEROID[&quot;WGS_1984&quot;,6378137.0,298.257223563]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],METHOD[&quot;Longitude_Rotation&quot;]]</wkt>
+		<transformForward>false</transformForward>
+		<name>WGS_1984_Major_Auxiliary_Sphere_To_WGS_1984</name>
+	</geoTransforms>
+</datumTransformations>
+<datumTransformations>
+	<geoTransforms>
+		<wkid>8088</wkid>
+		<latestWkid>1188</latestWkid>
+		<transformForward>true</transformForward>
+		<name>NAD_1983_To_WGS_1984_1</name>
+	</geoTransforms>
+</datumTransformations>
+<datumTransformations>
+	<geoTransforms>
+		<wkid>8088</wkid>
+		<latestWkid>1188</latestWkid>
+		<transformForward>false</transformForward>
+		<name>NAD_1983_To_WGS_1984_1</name>
+	</geoTransforms>
+</datumTransformations>
+<supportsDatumTransformation>true</supportsDatumTransformation>
+<maxRecordCount>100000</maxRecordCount>
+<maxImageHeight>4096</maxImageHeight>
+<maxImageWidth>4096</maxImageWidth>
+<supportedExtensions/>
