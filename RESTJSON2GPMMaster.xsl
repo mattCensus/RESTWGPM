@@ -13,6 +13,7 @@
     exclude-result-prefixes="fn grp vmf xs xsi xsl xd" xmlns="http://www.isotc211.org/2005/gmi">
     <xsl:import href="../REST2GPM/FGDCRequired.xsl"/>
     <xsl:import href="../REST2GPM/RESTJSON2GPMIdentificationInformation.xsl"/>
+    <xsl:import href="../Rest2GPM/RESTJSON2GPMDataQualityInformation.xsl"/>
     <xd:doc scope="stylesheet">
         <xd:desc>
             <xd:p>REST2GPM/RESTJSON2GPMMaster.xsl</xd:p>
@@ -32,6 +33,7 @@
             <xsl:attribute name="profile">wms</xsl:attribute>
            <xsl:call-template name="FGDCRequired"/>
             <xsl:call-template name="IdInfo"/>
+            <xsl:call-template name="DataQualityInformation"/>
         </xsl:element>
     </xsl:template>
     
