@@ -2,6 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     version="1.0">
     <xsl:template name="abstract">
+        <xsl:element name="Abstract">
         The Census REST services provide a way for web clients to communicate with GIS servers through 
         Representational State Transfer (REST) technology. REST technology is a set of rules that allows users to
         issue requests to the Census REST servers through structured URLS.
@@ -23,6 +24,6 @@
             </xsl:choose>
            
         </xsl:for-each>
-        
+        </xsl:element>
     </xsl:template>
 </xsl:stylesheet>

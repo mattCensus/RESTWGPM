@@ -14,19 +14,17 @@
     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
     exclude-result-prefixes="fn grp vmf xs xsi xsl xd">
     
-    <xsl:template name='FGDCRequired'>
-        <xsl:element name="FGDC_Required">
-            <xsl:element name="ISO_Theme">
-                <xsl:element name="ISO_Keyword_Thesaurus">ISO 19115 Topic Categories</xsl:element>
-                
-                <xsl:variable name="MapName" select="/REST_File/mapName"/>
-                <xsl:choose>
-                    <xsl:when test="contains($MapName,'American Indian')">
-                        <xsl:element name="ISO_Keyword">boundaries</xsl:element>
-                    </xsl:when>
-                </xsl:choose>
-                
+    <xsl:template name="Spatial_Data_Organization_Information">
+        <xsl:element name="Spatial_Data_Organization_Information">
+            <xsl:element name="Indirect_Spatial_Reference">Federal Information Processing Series (FIPS), Geographic Names
+            Information System (GNIS), and feature names.</xsl:element>
+            <xsl:element name="Direct_Spatial_Reference_Method">Vector</xsl:element>
+            <xsl:element name="Topology_Level">fullPlanarGraph</xsl:element>
+            <xsl:element name="SDTS_Terms_Description">
+                <xsl:element name="SDTS_Point_and_Vector_Object_Type">curve</xsl:element>
+                <xsl:element name="Point_and_Vector_Object_Count"><xsl:value-of select="/REST_File/maxRecordCount[1]"/></xsl:element>
             </xsl:element>
         </xsl:element>
     </xsl:template>
+    
 </xsl:stylesheet>

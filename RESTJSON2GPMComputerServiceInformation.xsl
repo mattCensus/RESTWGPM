@@ -13,20 +13,14 @@
     xmlns:grp="http://www.altova.com/Mapforce/grouping"
     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
     exclude-result-prefixes="fn grp vmf xs xsi xsl xd">
+    <xsl:import href="../REST2GPM/RESTJSON2GPMExportMap.xsl"/>
     
-    <xsl:template name='FGDCRequired'>
-        <xsl:element name="FGDC_Required">
-            <xsl:element name="ISO_Theme">
-                <xsl:element name="ISO_Keyword_Thesaurus">ISO 19115 Topic Categories</xsl:element>
-                
-                <xsl:variable name="MapName" select="/REST_File/mapName"/>
-                <xsl:choose>
-                    <xsl:when test="contains($MapName,'American Indian')">
-                        <xsl:element name="ISO_Keyword">boundaries</xsl:element>
-                    </xsl:when>
-                </xsl:choose>
-                
-            </xsl:element>
+    <xsl:template name="Computer_Service_Information">
+        <xsl:element name="Computer_Service_Information">
+            <xsl:element name="Service_Type">REST Service</xsl:element>
+            <xsl:element name="Service_Type_Version"><xsl:value-of select="/REST_File/currentVersion"/></xsl:element>
+            <xsl:element name="Coupling_Type">loose</xsl:element>
+            <xsl:call-template name="ExportMap"/>
         </xsl:element>
     </xsl:template>
 </xsl:stylesheet>

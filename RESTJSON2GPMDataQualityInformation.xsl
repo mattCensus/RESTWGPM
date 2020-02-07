@@ -5,12 +5,14 @@
     xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gmx="http://www.isotc211.org/2005/gmx"
     xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss"
     xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:default="http://www.opengis.net/wms"
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:vmf="http://www.altova.com/MapForce/UDF/vmf"
+    xmlns:esri_wms="http://www.esri.com/wms"
+    xmlns:vmf="http://www.altova.com/MapForce/UDF/vmf"
     xmlns:fn="http://www.w3.org/2005/xpath-functions"
     xmlns:grp="http://www.altova.com/Mapforce/grouping"
     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
-    exclude-result-prefixes="fn grp vmf xs xsi xsl xd" xmlns="http://www.isotc211.org/2005/gmi">
+    exclude-result-prefixes="fn grp vmf xs xsi xsl xd">
     
     <xsl:template name="DataQualityInformation">
         <xsl:element name="Data_Quality_Information">
@@ -45,9 +47,18 @@
                     <xsl:element name="Publication_Date">2019</xsl:element>
                     <xsl:element name="Title">Census MAF/TIGER database</xsl:element>
                 </xsl:element>
-               
+               <xsl:element name="Type_of_Source_Media">online</xsl:element>
+                <xsl:element name="Time_Period_of_Content">
+                    <xsl:element name="Range_Of_Dates">
+                        <xsl:element name="Beginning_Date">201801</xsl:element>
+                        <xsl:element name="Ending_Date">20181231</xsl:element>
+                    </xsl:element>
+                    <xsl:element name="Currentness_Reference">publication date</xsl:element>
+                </xsl:element>
+                <xsl:element name="Source_Citation_Abbreviation">MAF/TIGER</xsl:element>
+                <xsl:element name="Source_Contribution">All Line Segments</xsl:element>
             </xsl:element>
-             <xsl:element name="Type_of_Source_Media">online</xsl:element>
+             
             <xsl:element name="Process_Step">
                 <xsl:element name="Process_Description">
                     TIGER/Line Shapefiles are extracted from the Census MAF/TIGER
