@@ -14,6 +14,9 @@
     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
     exclude-result-prefixes="fn grp vmf xs xsi xsl xd">
     <xsl:import href="../REST2GPM/RESTJSON2GPMExportMap.xsl"/>
+    <xsl:import href="../REST2GPM/RESTJSON2GPMIdentify.xsl"/>
+    <xsl:import href="../REST2GPM/RESTJSON2GPMQueryDomains.xsl"/>
+    <xsl:import href="../REST2GPM/RESTJSON2GPMFind.xsl"/>
     
     <xsl:template name="Computer_Service_Information">
         <xsl:element name="Computer_Service_Information">
@@ -21,6 +24,10 @@
             <xsl:element name="Service_Type_Version"><xsl:value-of select="/REST_File/currentVersion"/></xsl:element>
             <xsl:element name="Coupling_Type">loose</xsl:element>
             <xsl:call-template name="ExportMap"/>
+             <xsl:call-template name="Identify"/>
+             <xsl:call-template name="QueryDomains"/>
+              <xsl:call-template name="Find"/>
+            <!--  -->
         </xsl:element>
     </xsl:template>
 </xsl:stylesheet>

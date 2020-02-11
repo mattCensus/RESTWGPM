@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:fgdcreq="../newGPMStd/FGDC_RequiredGPM"
+    xmlns:ii="../newGPMStd/GPMIdentificationInfo" 
+    xmlns:dq="../newGPMStd/GPMDQ"
+    xmlns:spdo="../newGPMStd/Spatial_Data_Organization_Information"
+    xmlns:sri="../newGPMStd/Spatial_Reference_Information"
+    xmlns:EAI="../newGPMStd/Entity_and_Attribute_Information"
+    xmlns:di="../newGPMStd/Distribution_Information"
+    xmlns:mri="../newGPMStd/Metadata_Reference_Information"
+    xmlns:GPMDef="../newGPMStd/GPMDefinitions">
+
+    <xsd:annotation>
+        <xsd:documentation xml:lang="en">
+        </xsd:documentation>
+    </xsd:annotation>
+    
+    <xsd:element name="REST_File">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="currentVersion"/>
+                <xsd:element name="serviceDescription"/>
+                <xsd:element name="mapName"/>
+                <xsd:element name="description"/>
+                <xsd:element name="copyrightText"/>
+                <xsd:element name="supportsDynamicLayers"/>
+                <xsd:element name="URL"/>
+                <xsd:element name="layers" type="layersGroup" maxOccurs="unbounded"/>
+                <xsd:element name="spatialReference" type="spatialReferenceType"/>
+                <xsd:element name="singleFusedMapCache"/>
+                <xsd:element name="initialExtent" type="initialExtentType"/>
+                <xsd:element name="fullExtent" type="initialExtentType"/>
+                <xsd:element name="minScale"/>
+                <xsd:element name="maxScale"/>
+                <xsd:element name="units"/>
+                <xsd:element name="supportedImageFormatTypes"/>
+                <xsd:element name="documentInfo" type="documentInfoType"/>
+                <xsd:element name="capabilities"/>
+                <xsd:element name="supportedQueryFormats"/>
+                <xsd:element name="exportTilesAllowed"/>
+                <xsd:element name="datumTransformations" type="datumTransformationsType" maxOccurs="unbounded"/>
+                <xsd:element name="supportsDatumTransformation"/>
+                <xsd:element name="maxRecordCount"/>
+                <xsd:element name="maxImageHeight"/>
+                <xsd:element name="maxImageWidth"/>
+                <xsd:element name="supportedExtensions"/>
+            </xsd:sequence>
+        </xsd:complexType>
+        
+    </xsd:element>
+
+    <xsd:complexType name="datumTransformationsType">
+      <xsd:sequence>
+          <xsd:element name="geoTransforms" type="geoTransformsType"/>
+      </xsd:sequence>
+    </xsd:complexType>
+    
+    <xsd:complexType name="geoTransformsType">
+        <xsd:sequence> 
+            <xsd:element name="wkt" minOccurs="0"/>
+            <xsd:element name="wkid" minOccurs="0"/>
+            <xsd:element name="latestWkid" minOccurs="0"/>
+            <xsd:element name="transformForward"/>
+            <xsd:element name="name"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="layersGroup">
+        <xsd:sequence>
+            <xsd:element name="id"/>
+            <xsd:element name="name"/>
+            <xsd:element name="parentLayerId"/>
+            <xsd:element name="defaultVisibility"/>
+            <xsd:element name="subLayerIds" maxOccurs="unbounded"/>
+            <xsd:element name="minScale" minOccurs="0"/>
+            <xsd:element name="maxScale" minOccurs="0"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="spatialReferenceType">
+        <xsd:sequence>
+            <xsd:element name="wkt" minOccurs="0"/>
+            <xsd:element name="wkid" minOccurs="0"/>
+            <xsd:element name="latestWkid"></xsd:element>
+          </xsd:sequence>  
+    </xsd:complexType>
+    
+    <xsd:complexType name="initialExtentType">
+        <xsd:sequence>
+            <xsd:element name="xmin"/>
+            <xsd:element name="ymin"/>
+            <xsd:element name="xmax"/>
+            <xsd:element name="ymax"/>
+            <xsd:element name="spatialReference" type="spatialReferenceType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    
+    <xsd:complexType name="documentInfoType">
+        <xsd:sequence>
+            <xsd:element name="Title"/>
+            <xsd:element name="Author"/>
+            <xsd:element name="Comments"/>
+            <xsd:element name="Subject"/>
+            <xsd:element name="Category"/>
+            <xsd:element name="AntialiasingMode"/>
+            <xsd:element name="TextAntialiasingMode"/>
+            <xsd:element name="Keywords"/>
+        </xsd:sequence>
+    </xsd:complexType>
+  
+</xs:schema>

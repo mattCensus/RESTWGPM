@@ -10,6 +10,7 @@
 		(AIJUA)</description>
 	<copyrightText>Source: U.S. Census Bureau</copyrightText>
 	<supportsDynamicLayers>false</supportsDynamicLayers>
+	<URL>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/AIANNHA/MapServer</URL>
 	<layers>
 		<id>0</id>
 		<name>Alaska Native Regional Corporations</name>

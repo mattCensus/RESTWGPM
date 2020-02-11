@@ -137,7 +137,7 @@
             </xsl:element>
             <xsl:element name="Connect_Point">
                 <xsl:variable name="URL" select="/REST_File/URL[1]"/>
-                <xsl:variable name="FinalURL" select="concat($URL,'export?')"/>
+                <xsl:variable name="FinalURL" select="concat($URL,'/export?')"/>
                 <xsl:variable name="mapName" select="/REST_File/description"/>
                 <xsl:variable name="serviceVersion" select="substring-after($URL,'services/')"/>
                 <xsl:variable name="finaleServiceVersion" select="substring-before($serviceVersion,'/')"></xsl:variable>

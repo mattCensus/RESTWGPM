@@ -1,0 +1,235 @@
+{
+ "currentVersion": 10.51,
+ "serviceDescription": "",
+ "mapName": "Census Regions and Divisions",
+ "description": "Census Regions, Census Divisions",
+ "copyrightText": "Source: U.S. Census Bureau",
+ "supportsDynamicLayers": false,
+ "layers": [
+  {
+   "id": 0,
+   "name": "Census Divisions",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 40000000,
+   "maxScale": 6000001
+  },
+  {
+   "id": 1,
+   "name": "Census Regions",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 80000000,
+   "maxScale": 12000001
+  },
+  {
+   "id": 2,
+   "name": "ACS 2019",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    3,
+    4
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 3,
+   "name": "Census Divisions",
+   "parentLayerId": 2,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 40000000,
+   "maxScale": 6000001
+  },
+  {
+   "id": 4,
+   "name": "Census Regions",
+   "parentLayerId": 2,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 80000000,
+   "maxScale": 12000001
+  },
+  {
+   "id": 5,
+   "name": "ACS 2018",
+   "parentLayerId": -1,
+   "defaultVisibility": false,
+   "subLayerIds": [
+    6,
+    7
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 6,
+   "name": "Census Divisions",
+   "parentLayerId": 5,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 40000000,
+   "maxScale": 6000001
+  },
+  {
+   "id": 7,
+   "name": "Census Regions",
+   "parentLayerId": 5,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 80000000,
+   "maxScale": 12000001
+  },
+  {
+   "id": 8,
+   "name": "Census 2010",
+   "parentLayerId": -1,
+   "defaultVisibility": false,
+   "subLayerIds": [
+    9,
+    10
+   ],
+   "minScale": 0,
+   "maxScale": 0
+  },
+  {
+   "id": 9,
+   "name": "Census Divisions",
+   "parentLayerId": 8,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 40000000,
+   "maxScale": 6000001
+  },
+  {
+   "id": 10,
+   "name": "Census Regions",
+   "parentLayerId": 8,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 80000000,
+   "maxScale": 12000001
+  },
+  {
+   "id": 11,
+   "name": "Regional Offices",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0
+  }
+ ],
+ "tables": [],
+ "spatialReference": {
+  "wkid": 102100,
+  "latestWkid": 3857
+ },
+ "singleFusedMapCache": false,
+ "initialExtent": {
+  "xmin": -1.9989271588300474E7,
+  "ymin": 1516866.172113629,
+  "xmax": -6611911.500246964,
+  "ymax": 1.1020718513151644E7,
+  "spatialReference": {
+   "wkid": 102100,
+   "latestWkid": 3857
+  }
+ },
+ "fullExtent": {
+  "xmin": -20037700,
+  "ymin": -9873356.9331,
+  "xmax": 2.12621139598E7,
+  "ymax": 3.17086209397E7,
+  "spatialReference": {
+   "wkid": 102100,
+   "latestWkid": 3857
+  }
+ },
+ "minScale": 0,
+ "maxScale": 0,
+ "units": "esriMeters",
+ "supportedImageFormatTypes": "PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP",
+ "documentInfo": {
+  "Title": "",
+  "Author": "",
+  "Comments": "",
+  "Subject": "",
+  "Category": "",
+  "AntialiasingMode": "None",
+  "TextAntialiasingMode": "Force",
+  "Keywords": ""
+ },
+ "capabilities": "Map,Data,Query",
+ "supportedQueryFormats": "JSON, AMF, geoJSON",
+ "exportTilesAllowed": false,
+ "datumTransformations": [
+  {
+   "geoTransforms": [
+    {
+     "wkid": 108001,
+     "latestWkid": 1241,
+     "transformForward": true,
+     "name": "NAD_1927_To_NAD_1983_NADCON"
+    }
+   ]
+  },
+  {
+   "geoTransforms": [
+    {
+     "wkid": 108001,
+     "latestWkid": 1241,
+     "transformForward": false,
+     "name": "NAD_1927_To_NAD_1983_NADCON"
+    }
+   ]
+  },
+  {
+   "geoTransforms": [
+    {
+     "wkt": "GEOGTRAN[\"WGS_1984_Major_Auxiliary_Sphere_To_WGS_1984\",GEOGCS[\"GCS_WGS_1984_Major_Auxiliary_Sphere\",DATUM[\"D_WGS_1984_Major_Auxiliary_Sphere\",SPHEROID[\"WGS_1984_Major_Auxiliary_Sphere\",6378137.0,0.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Longitude_Rotation\"]]",
+     "transformForward": true,
+     "name": "WGS_1984_Major_Auxiliary_Sphere_To_WGS_1984"
+    }
+   ]
+  },
+  {
+   "geoTransforms": [
+    {
+     "wkt": "GEOGTRAN[\"WGS_1984_Major_Auxiliary_Sphere_To_WGS_1984\",GEOGCS[\"GCS_WGS_1984_Major_Auxiliary_Sphere\",DATUM[\"D_WGS_1984_Major_Auxiliary_Sphere\",SPHEROID[\"WGS_1984_Major_Auxiliary_Sphere\",6378137.0,0.0]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],METHOD[\"Longitude_Rotation\"]]",
+     "transformForward": false,
+     "name": "WGS_1984_Major_Auxiliary_Sphere_To_WGS_1984"
+    }
+   ]
+  },
+  {
+   "geoTransforms": [
+    {
+     "wkid": 8088,
+     "latestWkid": 1188,
+     "transformForward": true,
+     "name": "NAD_1983_To_WGS_1984_1"
+    }
+   ]
+  },
+  {
+   "geoTransforms": [
+    {
+     "wkid": 8088,
+     "latestWkid": 1188,
+     "transformForward": false,
+     "name": "NAD_1983_To_WGS_1984_1"
+    }
+   ]
+  }
+ ],
+ "supportsDatumTransformation": true,
+ "maxRecordCount": 100000,
+ "maxImageHeight": 4096,
+ "maxImageWidth": 4096,
+ "supportedExtensions": ""
+}

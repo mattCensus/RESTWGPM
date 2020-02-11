@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<REST_File>
+<currentVersion>10.51</currentVersion>
+<serviceDescription/>
+<mapName>Census Regions and Divisions</mapName>
+<description>Census Regions, Census Divisions</description>
+<copyrightText>Source: U.S. Census Bureau</copyrightText>
+<supportsDynamicLayers>false</supportsDynamicLayers>
+<layers>
+	<id>0</id>
+	<name>Census Divisions</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>40000000</minScale>
+	<maxScale>6000001</maxScale>
+</layers>
+<layers>
+	<id>1</id>
+	<name>Census Regions</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>80000000</minScale>
+	<maxScale>12000001</maxScale>
+</layers>
+<layers>
+	<id>2</id>
+	<name>ACS 2019</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>3</subLayerIds>
+	<subLayerIds>4</subLayerIds>
+	<minScale>0</minScale>
+	<maxScale>0</maxScale>
+</layers>
+<layers>
+	<id>3</id>
+	<name>Census Divisions</name>
+	<parentLayerId>2</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>40000000</minScale>
+	<maxScale>6000001</maxScale>
+</layers>
+<layers>
+	<id>4</id>
+	<name>Census Regions</name>
+	<parentLayerId>2</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>80000000</minScale>
+	<maxScale>12000001</maxScale>
+</layers>
+<layers>
+	<id>5</id>
+	<name>ACS 2018</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>false</defaultVisibility>
+	<subLayerIds>6</subLayerIds>
+	<subLayerIds>7</subLayerIds>
+	<minScale>0</minScale>
+	<maxScale>0</maxScale>
+</layers>
+<layers>
+	<id>6</id>
+	<name>Census Divisions</name>
+	<parentLayerId>5</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>40000000</minScale>
+	<maxScale>6000001</maxScale>
+</layers>
+<layers>
+	<id>7</id>
+	<name>Census Regions</name>
+	<parentLayerId>5</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>80000000</minScale>
+	<maxScale>12000001</maxScale>
+</layers>
+<layers>
+	<id>8</id>
+	<name>Census 2010</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>false</defaultVisibility>
+	<subLayerIds>9</subLayerIds>
+	<subLayerIds>10</subLayerIds>
+	<minScale>0</minScale>
+	<maxScale>0</maxScale>
+</layers>
+<layers>
+	<id>9</id>
+	<name>Census Divisions</name>
+	<parentLayerId>8</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>40000000</minScale>
+	<maxScale>6000001</maxScale>
+</layers>
+<layers>
+	<id>10</id>
+	<name>Census Regions</name>
+	<parentLayerId>8</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>80000000</minScale>
+	<maxScale>12000001</maxScale>
+</layers>
+<layers>
+	<id>11</id>
+	<name>Regional Offices</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>0</minScale>
+	<maxScale>0</maxScale>
+</layers>
+<spatialReference>
+	<wkid>102100</wkid>
+	<latestWkid>3857</latestWkid>
+</spatialReference>
+<singleFusedMapCache>false</singleFusedMapCache>
+<initialExtent>
+	<xmin>-1.9989271588300474E7</xmin>
+	<ymin>1516866.172113629</ymin>
+	<xmax>-6611911.500246964</xmax>
+	<ymax>1.1020718513151644E7</ymax>
+	<spatialReference>
+		<wkid>102100</wkid>
+		<latestWkid>3857</latestWkid>
+	</spatialReference>
+</initialExtent>
+<fullExtent>
+	<xmin>-20037700</xmin>
+	<ymin>-9873356.9331</ymin>
+	<xmax>2.12621139598E7</xmax>
+	<ymax>3.17086209397E7</ymax>
+	<spatialReference>
+		<wkid>102100</wkid>
+		<latestWkid>3857</latestWkid>
+	</spatialReference>
+</fullExtent>
+<minScale>0</minScale>
+<maxScale>0</maxScale>
+<units>esriMeters</units>
+<supportedImageFormatTypes>PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP</supportedImageFormatTypes>
+<documentInfo>
+	<Title/>
+	<Author/>
+	<Comments/>
+	<Subject/>
+	<Category/>
+	<AntialiasingMode>None</AntialiasingMode>
+	<TextAntialiasingMode>Force</TextAntialiasingMode>
+	<Keywords/>
+</documentInfo>
+<capabilities>Map,Data,Query</capabilities>
+<supportedQueryFormats>JSON, AMF, geoJSON</supportedQueryFormats>
+<exportTilesAllowed>false</exportTilesAllowed>
+<datumTransformations>
+	<geoTransforms>
+		<wkid>108001</wkid>
+		<latestWkid>1241</latestWkid>
+		<transformForward>true</transformForward>
+		<name>NAD_1927_To_NAD_1983_NADCON</name>
+	</geoTransforms>
+</datumTransformations>
+<datumTransformations>
+	<geoTransforms>
+		<wkid>108001</wkid>
+		<latestWkid>1241</latestWkid>
+		<transformForward>false</transformForward>
+		<name>NAD_1927_To_NAD_1983_NADCON</name>
+	</geoTransforms>
+</datumTransformations>
+<datumTransformations>
+	<geoTransforms>
+		<wkt>GEOGTRAN[&quot;WGS_1984_Major_Auxiliary_Sphere_To_WGS_1984&quot;,GEOGCS[&quot;GCS_WGS_1984_Major_Auxiliary_Sphere&quot;,DATUM[&quot;D_WGS_1984_Major_Auxiliary_Sphere&quot;,SPHEROID[&quot;WGS_1984_Major_Auxiliary_Sphere&quot;,6378137.0,0.0]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],GEOGCS[&quot;GCS_WGS_1984&quot;,DATUM[&quot;D_WGS_1984&quot;,SPHEROID[&quot;WGS_1984&quot;,6378137.0,298.257223563]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],METHOD[&quot;Longitude_Rotation&quot;]]</wkt>
+		<transformForward>true</transformForward>
+		<name>WGS_1984_Major_Auxiliary_Sphere_To_WGS_1984</name>
+	</geoTransforms>
+</datumTransformations>
+<datumTransformations>
+	<geoTransforms>
+		<wkt>GEOGTRAN[&quot;WGS_1984_Major_Auxiliary_Sphere_To_WGS_1984&quot;,GEOGCS[&quot;GCS_WGS_1984_Major_Auxiliary_Sphere&quot;,DATUM[&quot;D_WGS_1984_Major_Auxiliary_Sphere&quot;,SPHEROID[&quot;WGS_1984_Major_Auxiliary_Sphere&quot;,6378137.0,0.0]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],GEOGCS[&quot;GCS_WGS_1984&quot;,DATUM[&quot;D_WGS_1984&quot;,SPHEROID[&quot;WGS_1984&quot;,6378137.0,298.257223563]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],METHOD[&quot;Longitude_Rotation&quot;]]</wkt>
+		<transformForward>false</transformForward>
+		<name>WGS_1984_Major_Auxiliary_Sphere_To_WGS_1984</name>
+	</geoTransforms>
+</datumTransformations>
+<datumTransformations>
+	<geoTransforms>
+		<wkid>8088</wkid>
+		<latestWkid>1188</latestWkid>
+		<transformForward>true</transformForward>
+		<name>NAD_1983_To_WGS_1984_1</name>
+	</geoTransforms>
+</datumTransformations>
+<datumTransformations>
+	<geoTransforms>
+		<wkid>8088</wkid>
+		<latestWkid>1188</latestWkid>
+		<transformForward>false</transformForward>
+		<name>NAD_1983_To_WGS_1984_1</name>
+	</geoTransforms>
+</datumTransformations>
+<supportsDatumTransformation>true</supportsDatumTransformation>
+<maxRecordCount>100000</maxRecordCount>
+<maxImageHeight>4096</maxImageHeight>
+<maxImageWidth>4096</maxImageWidth>
+<supportedExtensions/>

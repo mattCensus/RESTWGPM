@@ -247,6 +247,22 @@
              <xsl:when test="contains($keywordPass,'Traffic Analysis Districts')">
                  <xsl:element name="FC_Title">Feature Catalog for 2011 2010 Census Traffic Analysis District (TAD) National Shapefile</xsl:element>
              </xsl:when>
+             <xsl:when test="contains($keywordPass,'American Indian, Alaska Native, and Native Hawaiian Areas')">
+                 <xsl:variable name="FCTitle" select="concat('Feature Catalog for the 2019 ', $keywordPass )"/>
+                 <xsl:element name="FC_Title"><xsl:value-of select="$FCTitle"></xsl:value-of></xsl:element>
+             </xsl:when>
+             <xsl:when test="contains($keywordPass,'ACS 2019')">
+                 <xsl:variable name="FCTitle" select="concat('Feature Catalog for the 2019 ', $keywordPass )"/>
+                 <xsl:element name="FC_Title"><xsl:value-of select="$FCTitle"></xsl:value-of></xsl:element>
+             </xsl:when>
+             <xsl:when test="contains($keywordPass,'ACS 2018')">
+                 <xsl:variable name="FCTitle" select="concat('Feature Catalog for the 2018 ', $keywordPass )"/>
+                 <xsl:element name="FC_Title"><xsl:value-of select="$FCTitle"></xsl:value-of></xsl:element>
+             </xsl:when>
+             <xsl:when test="contains($keywordPass,'Census 2010')">
+                 <xsl:variable name="FCTitle" select="concat('Feature Catalog for the Census 2010 ', $keywordPass )"/>
+                 <xsl:element name="FC_Title"><xsl:value-of select="$FCTitle"></xsl:value-of></xsl:element>
+             </xsl:when>
              <xsl:otherwise>
                  <xsl:variable name="FCTitle" select="concat('Feature Catalog for the 2019 ', $keywordPass )"/>
                  <xsl:element name="FC_Title"><xsl:value-of select="$FCTitle"></xsl:value-of></xsl:element>
@@ -520,7 +536,23 @@
             <xsl:when test="contains($keywordPass,'Traffic Analysis Districts')">
                 <xsl:element name="Feature_Types">Traffic Analysis Districts</xsl:element>
                 <xsl:element name="FC_Online_Linkage">https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TL2011/tad/tl_2011_us_tad10.ea.xml</xsl:element>
-             </xsl:when>   
+            </xsl:when>
+            <xsl:when test="contains($keywordPass,'American Indian, Alaska Native, and Native Hawaiian Areas')">
+                <xsl:element name="Feature_Types">American Indian, Alaska Native, and Native Hawaiian Areas</xsl:element>
+                <xsl:element name="FC_Online_Linkage">https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/OtherEAs/AmericanIndianAlaskaNativeandNativeHawaiianAreas.ea.xml</xsl:element>
+            </xsl:when>
+            <xsl:when test="contains($keywordPass,'ACS 2019')">
+                <xsl:element name="Feature_Types">ACS 2019</xsl:element>
+                <xsl:element name="FC_Online_Linkage">https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/OtherEAs//ACS2019.ea.gpm.xml</xsl:element>
+            </xsl:when>
+            <xsl:when test="contains($keywordPass,'ACS 2018')">
+                <xsl:element name="Feature_Types">ACS 2018</xsl:element>
+                <xsl:element name="FC_Online_Linkage">https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/OtherEAs//ACS2018.ea.gpm.xml</xsl:element>
+            </xsl:when>
+            <xsl:when test="contains($keywordPass,'Census 2010')">
+                <xsl:element name="Feature_Types">Census 2010</xsl:element>
+                <xsl:element name="FC_Online_Linkage">https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/OtherEAs/Census2010.ea.gpm.xml</xsl:element>
+            </xsl:when>
             <xsl:otherwise>
                  <xsl:element name="FC_Online_Linkage"><xsl:value-of select="$TigerURL"/></xsl:element>
             </xsl:otherwise>
