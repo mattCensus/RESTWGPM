@@ -23,7 +23,7 @@
             <xsl:element name="Distribution_Liability">This Rest Service contains geographic data only and does not
                 include display mapping software or statistical data. For information on how to use this REST Service data
                 with specific software package users shall contact the company that produced the software. To use this REST
-                dervice in a web browser, reference the GeoServices REST Specification.</xsl:element>
+                service in a web browser, reference the GeoServices REST Specification.</xsl:element>
        
         <xsl:element name="Standard_Order_Process">
             <xsl:element name="Digital_Form">

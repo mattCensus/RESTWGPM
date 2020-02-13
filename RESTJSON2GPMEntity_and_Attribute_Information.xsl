@@ -263,6 +263,10 @@
                  <xsl:variable name="FCTitle" select="concat('Feature Catalog for the Census 2010 ', $keywordPass )"/>
                  <xsl:element name="FC_Title"><xsl:value-of select="$FCTitle"></xsl:value-of></xsl:element>
              </xsl:when>
+             <xsl:when test="contains($keywordPass,'Regional Offices')">
+                 <xsl:variable name="FCTitle" select="concat('Feature Catalog for the 2019 ', $keywordPass )"/>
+                 <xsl:element name="FC_Title"><xsl:value-of select="$FCTitle"></xsl:value-of></xsl:element>
+             </xsl:when>
              <xsl:otherwise>
                  <xsl:variable name="FCTitle" select="concat('Feature Catalog for the 2019 ', $keywordPass )"/>
                  <xsl:element name="FC_Title"><xsl:value-of select="$FCTitle"></xsl:value-of></xsl:element>
@@ -552,6 +556,10 @@
             <xsl:when test="contains($keywordPass,'Census 2010')">
                 <xsl:element name="Feature_Types">Census 2010</xsl:element>
                 <xsl:element name="FC_Online_Linkage">https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/OtherEAs/Census2010.ea.gpm.xml</xsl:element>
+            </xsl:when>
+            <xsl:when test="contains($keywordPass,'Regional Offices')">
+                <xsl:element name="Feature_Types">Regional Offices</xsl:element>
+                <xsl:element name="FC_Online_Linkage">https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/CensusRegions.ea.gpm</xsl:element>
             </xsl:when>
             <xsl:otherwise>
                  <xsl:element name="FC_Online_Linkage"><xsl:value-of select="$TigerURL"/></xsl:element>

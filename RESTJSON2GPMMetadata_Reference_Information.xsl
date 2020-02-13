@@ -24,7 +24,7 @@
             <xsl:variable name="finaleServiceVersion2" select="concat($finaleServiceVersion,'_')"></xsl:variable>
             
             <xsl:variable name="mapName" select="/REST_File/mapName"/>
-            <xsl:variable name="MHL" select="concat('This is the REST Service for the', $mapName)"/>
+            <xsl:variable name="MHL" select="concat('This is the REST Service for the ', $mapName)"/>
             <xsl:variable name="mapName2" select="replace($mapName,',','_')"/>
             <xsl:variable name="mapName3" select="replace($mapName2,' ','_')"/>
             

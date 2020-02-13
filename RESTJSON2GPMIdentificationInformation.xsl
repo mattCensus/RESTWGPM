@@ -25,9 +25,7 @@
             </xsl:element>
             <xsl:element name="Description">
                 <xsl:call-template name="abstract"/>
-                <xsl:text>
-                    
-                </xsl:text>
+                <xsl:text></xsl:text>
                 <xsl:element name="Purpose">To provide a way for Web clients to communicate with geographic
                     information system (GIS) servers through Representational State Transfer (REST) technology.
                 </xsl:element>

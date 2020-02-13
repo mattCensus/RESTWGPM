@@ -18,10 +18,17 @@
         <xsl:element name="FGDC_Required">
             <xsl:element name="ISO_Theme">
                 <xsl:element name="ISO_Keyword_Thesaurus">ISO 19115 Topic Categories</xsl:element>
-                
-                <xsl:variable name="MapName" select="/REST_File/mapName"/>
+               
+                  <xsl:variable name="MapName" select="/REST_File/mapName"/>
+                  <!--<xsl:comment>MapName <xsl:value-of select="$MapName"/> </xsl:comment>-->
                 <xsl:choose>
                     <xsl:when test="contains($MapName,'American Indian')">
+                        <xsl:element name="ISO_Keyword">boundaries</xsl:element>
+                    </xsl:when>
+                    <xsl:when test="contains($MapName,'Census Regions and Divisions')">
+                        <xsl:element name="ISO_Keyword">boundaries</xsl:element>
+                    </xsl:when>
+                    <xsl:when test="contains($MapName,'Census Tracts and Blocks')">
                         <xsl:element name="ISO_Keyword">boundaries</xsl:element>
                     </xsl:when>
                 </xsl:choose>
