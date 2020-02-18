@@ -267,6 +267,10 @@
                  <xsl:variable name="FCTitle" select="concat('Feature Catalog for the 2019 ', $keywordPass )"/>
                  <xsl:element name="FC_Title"><xsl:value-of select="$FCTitle"></xsl:value-of></xsl:element>
              </xsl:when>
+             <xsl:when test="contains($keywordPass,'New England City and Town Areas')">
+                 <xsl:variable name="FCTitle" select="concat('Feature Catalog for the 2019 ', $keywordPass )"/>
+                 <xsl:element name="FC_Title"><xsl:value-of select="$FCTitle"></xsl:value-of></xsl:element>
+             </xsl:when>
              <xsl:otherwise>
                  <xsl:variable name="FCTitle" select="concat('Feature Catalog for the 2019 ', $keywordPass )"/>
                  <xsl:element name="FC_Title"><xsl:value-of select="$FCTitle"></xsl:value-of></xsl:element>
@@ -561,6 +565,10 @@
                 <xsl:element name="Feature_Types">Regional Offices</xsl:element>
                 <xsl:element name="FC_Online_Linkage">https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/CensusRegions.ea.gpm</xsl:element>
             </xsl:when>
+            <xsl:when test="contains($keywordPass,'New England City and Town Areas')">
+                <xsl:element name="Feature_Types">New England City and Town Area (NECTA)</xsl:element>
+                <xsl:element name="FC_Online_Linkage">https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TIGER2018/necta/tl_2018_us_necta.shp.ea.iso.xml</xsl:element>
+             </xsl:when>
             <xsl:otherwise>
                  <xsl:element name="FC_Online_Linkage"><xsl:value-of select="$TigerURL"/></xsl:element>
             </xsl:otherwise>

@@ -20,7 +20,7 @@
                 <xsl:element name="ISO_Keyword_Thesaurus">ISO 19115 Topic Categories</xsl:element>
                
                   <xsl:variable name="MapName" select="/REST_File/mapName"/>
-                  <!--<xsl:comment>MapName <xsl:value-of select="$MapName"/> </xsl:comment>-->
+                  <!-- <xsl:comment>MapName <xsl:value-of select="$MapName"/> </xsl:comment>-->
                 <xsl:choose>
                     <xsl:when test="contains($MapName,'American Indian')">
                         <xsl:element name="ISO_Keyword">boundaries</xsl:element>
@@ -29,6 +29,33 @@
                         <xsl:element name="ISO_Keyword">boundaries</xsl:element>
                     </xsl:when>
                     <xsl:when test="contains($MapName,'Census Tracts and Blocks')">
+                        <xsl:element name="ISO_Keyword">boundaries</xsl:element>
+                    </xsl:when>
+                    <xsl:when test="contains($MapName,'Hydrography')">
+                        <xsl:element name="ISO_Keyword">inlandWaters</xsl:element>
+                    </xsl:when>
+                    <xsl:when test="contains($MapName,'Congressional Districts')">
+                        <xsl:element name="ISO_Keyword">inlandWaters</xsl:element>
+                    </xsl:when>
+                    <xsl:when test="contains($MapName,'Legislative Areas')">
+                        <xsl:element name="ISO_Keyword">boundaries</xsl:element>
+                    </xsl:when>
+                    <xsl:when test="contains($MapName,'Metropolitan and Micropolitan Statistical Areas')">
+                        <xsl:element name="ISO_Keyword">boundaries</xsl:element>
+                    </xsl:when>
+                    <xsl:when test="contains($MapName,'Military Installations')">
+                        <xsl:element name="ISO_Keyword">intelligenceMilitary</xsl:element>
+                    </xsl:when>
+                    <xsl:when test="contains($MapName,'National Park Service Areas')">
+                        <xsl:element name="ISO_Keyword">Society</xsl:element>
+                    </xsl:when>
+                    <xsl:when test="contains($MapName,'Correctional Facilities')">
+                        <xsl:element name="ISO_Keyword">structure</xsl:element>
+                    </xsl:when>
+                    <xsl:when test="contains($MapName,'Places and County Subdivisions')">
+                        <xsl:element name="ISO_Keyword">boundaries</xsl:element>
+                    </xsl:when>
+                    <xsl:when test="contains($MapName,'PUMAs')">
                         <xsl:element name="ISO_Keyword">boundaries</xsl:element>
                     </xsl:when>
                 </xsl:choose>
