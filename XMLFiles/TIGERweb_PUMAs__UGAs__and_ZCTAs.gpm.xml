@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GPM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" profile="wms">
+   <FGDC_Required>
+      <ISO_Theme>
+         <ISO_Keyword_Thesaurus>ISO 19115 Topic Categories</ISO_Keyword_Thesaurus>
+         <ISO_Keyword>boundaries</ISO_Keyword>
+      </ISO_Theme>
+   </FGDC_Required>
+   <Identification_Information>
+      <Citation>
+         <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Originator>
+         <Publication_Date>2020</Publication_Date>
+         <Title>PUMAs, UGAs, and ZCTAs</Title>
+         <Geospatial_Data_Presentation_Form>Web Mapping Service</Geospatial_Data_Presentation_Form>
+      </Citation>
+      <Description>
+         <Abstract>
+        The Census REST services provide a way for web clients to communicate with GIS servers through 
+        Representational State Transfer (REST) technology. REST technology is a set of rules that allows users to
+        issue requests to the Census REST servers through structured URLS.
+        
+        The PUMAs, UGAs, and ZCTAs map contains 2010 Census Public Use Microdata Areas,
+        2010 Census ZIP Code Tabulation Areas, ACS 2019, 2010 Census Public Use Microdata Areas,
+        2010 Census ZIP Code Tabulation Areas, ACS 2018, 2010 Census Public Use Microdata Areas,
+        2010 Census ZIP Code Tabulation Areas, Census 2010, Public Use Microdata Areas,
+        Traffic Analysis Districts, Traffic Analysis Zones, Urban Growth Areas,  and
+        ZIP Code Tabulation Areas.</Abstract>
+         <Purpose>To provide a way for Web clients to communicate with geographic information system (GIS)
+            servers through Representational State Transfer (REST) technology.
+                </Purpose>
+      </Description>
+      <Time_Period_of_Content>
+         <Calendar_Date>20200101</Calendar_Date>
+         <Currentness_Reference>ground condition</Currentness_Reference>
+      </Time_Period_of_Content>
+      <Status>
+         <Progress>Completed</Progress>
+         <Maintenance_and_Update_Frequency>Annually</Maintenance_and_Update_Frequency>
+      </Status>
+      <Spatial_Domain>
+         <Bounding_Coordinates>
+            <West_Bounding_Coordinate>-170.758411</West_Bounding_Coordinate>
+            <East_Bounding_Coordinate>145.794980</East_Bounding_Coordinate>
+            <North_Bounding_Coordinate>71.299040</North_Bounding_Coordinate>
+            <South_Bounding_Coordinate>-14.375089</South_Bounding_Coordinate>
+         </Bounding_Coordinates>
+      </Spatial_Domain>
+      <Keywords>
+         <Theme>
+            <Theme_Keyword_Thesaurus>None</Theme_Keyword_Thesaurus>
+            <Theme_Keyword>2010 Census Public Use Microdata Areas</Theme_Keyword>
+            <Theme_Keyword>2010 Census ZIP Code Tabulation Areas</Theme_Keyword>
+            <Theme_Keyword>ACS 2019</Theme_Keyword>
+            <Theme_Keyword>2010 Census Public Use Microdata Areas</Theme_Keyword>
+            <Theme_Keyword>2010 Census ZIP Code Tabulation Areas</Theme_Keyword>
+            <Theme_Keyword>ACS 2018</Theme_Keyword>
+            <Theme_Keyword>2010 Census Public Use Microdata Areas</Theme_Keyword>
+            <Theme_Keyword>2010 Census ZIP Code Tabulation Areas</Theme_Keyword>
+            <Theme_Keyword>Census 2010</Theme_Keyword>
+            <Theme_Keyword>Public Use Microdata Areas</Theme_Keyword>
+            <Theme_Keyword>Traffic Analysis Districts</Theme_Keyword>
+            <Theme_Keyword>Traffic Analysis Zones</Theme_Keyword>
+            <Theme_Keyword>Urban Growth Areas</Theme_Keyword>
+            <Theme_Keyword>ZIP Code Tabulation Areas</Theme_Keyword>
+         </Theme>
+         <Place>
+            <Place_Keyword_Thesaurus>National Standard Codes (ANSI INCITS 38-2009), Federal Information Processing Series (FIPS) – States/State Equivalents</Place_Keyword_Thesaurus>
+            <Place_Keyword>Alabama</Place_Keyword>
+            <Place_Keyword>Alaska</Place_Keyword>
+            <Place_Keyword>Arizona</Place_Keyword>
+            <Place_Keyword>Arkansas</Place_Keyword>
+            <Place_Keyword>California</Place_Keyword>
+            <Place_Keyword>Colorado</Place_Keyword>
+            <Place_Keyword>Connecticut</Place_Keyword>
+            <Place_Keyword>Delaware</Place_Keyword>
+            <Place_Keyword>District of Columbia</Place_Keyword>
+            <Place_Keyword>Florida</Place_Keyword>
+            <Place_Keyword>Georgia</Place_Keyword>
+            <Place_Keyword>Hawaii</Place_Keyword>
+            <Place_Keyword>Idaho</Place_Keyword>
+            <Place_Keyword>Illinois</Place_Keyword>
+            <Place_Keyword>Indiana</Place_Keyword>
+            <Place_Keyword>Iowa</Place_Keyword>
+            <Place_Keyword>Kansas</Place_Keyword>
+            <Place_Keyword>Kentucky</Place_Keyword>
+            <Place_Keyword>Louisiana</Place_Keyword>
+            <Place_Keyword>Maine</Place_Keyword>
+            <Place_Keyword>Maryland</Place_Keyword>
+            <Place_Keyword>Massachusetts</Place_Keyword>
+            <Place_Keyword>Michigan</Place_Keyword>
+            <Place_Keyword>Minnesota</Place_Keyword>
+            <Place_Keyword>Mississippi</Place_Keyword>
+            <Place_Keyword>Missouri</Place_Keyword>
+            <Place_Keyword>Montana</Place_Keyword>
+            <Place_Keyword>Nebraska</Place_Keyword>
+            <Place_Keyword>Nevada</Place_Keyword>
+            <Place_Keyword>New Hampshire</Place_Keyword>
+            <Place_Keyword>New Jersey</Place_Keyword>
+            <Place_Keyword>New Mexico</Place_Keyword>
+            <Place_Keyword>New York</Place_Keyword>
+            <Place_Keyword>North Carolina</Place_Keyword>
+            <Place_Keyword>North Dakota</Place_Keyword>
+            <Place_Keyword>Ohio</Place_Keyword>
+            <Place_Keyword>Oklahoma</Place_Keyword>
+            <Place_Keyword>Oregon</Place_Keyword>
+            <Place_Keyword>Pennsylvania</Place_Keyword>
+            <Place_Keyword>Rhode Island</Place_Keyword>
+            <Place_Keyword>South Carolina</Place_Keyword>
+            <Place_Keyword>South Dakota</Place_Keyword>
+            <Place_Keyword>Tennessee</Place_Keyword>
+            <Place_Keyword>Texas</Place_Keyword>
+            <Place_Keyword>Utah</Place_Keyword>
+            <Place_Keyword>Vermont</Place_Keyword>
+            <Place_Keyword>Virginia</Place_Keyword>
+            <Place_Keyword>Washington</Place_Keyword>
+            <Place_Keyword>West Virginia</Place_Keyword>
+            <Place_Keyword>Wisconsin</Place_Keyword>
+            <Place_Keyword>Wyoming</Place_Keyword>
+         </Place>
+         <Place>
+            <Place_Keyword_Thesaurus>ISO 3166: Codes for the representation of names of countries and their subdivisions </Place_Keyword_Thesaurus>
+            <Place_Keyword>U.S</Place_Keyword>
+            <Place_Keyword>United States</Place_Keyword>
+            <Place_Keyword>United States of America</Place_Keyword>
+         </Place>
+      </Keywords>
+      <Constraints>
+         <Access_Constraints>unrestricted</Access_Constraints>
+         <Use_Constraints>trademark</Use_Constraints>
+         <Use_Constraints>otherRestrictions</Use_Constraints>
+         <Other_Constraints>Use Constraints: These products are free to use in a product or
+                    publication, however acknowledgement must be given to the U.S. Census Bureau as the source. WMS
+                    boundary files should not be used for geographic analysis including area or perimeter calculation.
+                    Files should not be used for geocoding addresses. Files should not be used for determining precise
+                    geographic area relationships.</Other_Constraints>
+      </Constraints>
+      <Point_of_Contact>
+         <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Contact_Organization>
+         <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+      </Point_of_Contact>
+   </Identification_Information>
+   <Data_Quality_Information>
+      <Atribute_Accuracy_Report>
+         <Test_Report>
+            <Result>Feature attribute information has been examined but has not been fully tested for consistency.</Result>
+         </Test_Report>
+      </Atribute_Accuracy_Report>
+      <Non_Quantitative_Attribute_Accuracy_Report>
+         <Test_Report>
+            <Result>Feature attribute information has been examined but has not been fully tested for consistency.</Result>
+         </Test_Report>
+      </Non_Quantitative_Attribute_Accuracy_Report>
+      <Logical_Consistency_Report>
+         <Test_Report>
+            <Result>The Census Bureau performed spatial data tests for logical consistency of the codes during the compilation
+                        of the original Census MAF/TIGER database files.  Most of the codes for geographic entities except states,
+                        counties, urban areas, Core Based Statistical Areas (CBSAs), American Indian Areas (AIAs), and congressional
+                        districts were provided to the Census Bureau by the USGS, the agency responsible for maintaining the Geographic
+                        Names Information System (GNIS)</Result>
+         </Test_Report>
+      </Logical_Consistency_Report>
+      <Completeness_Report>
+         <Test_Report>
+            <Result>Data completeness of the TIGER/Line Shapefiles reflects the contents of the Census MAF/TIGER database at
+                        the time the TIGER/Line Shapefiles were created.</Result>
+         </Test_Report>
+      </Completeness_Report>
+      <Source_Information>
+         <Citation>
+            <Originator>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Originator>
+            <Publication_Date>2019</Publication_Date>
+            <Title>Census MAF/TIGER database</Title>
+         </Citation>
+         <Type_of_Source_Media>online</Type_of_Source_Media>
+         <Time_Period_of_Content>
+            <Range_Of_Dates>
+               <Beginning_Date>201801</Beginning_Date>
+               <Ending_Date>20181231</Ending_Date>
+            </Range_Of_Dates>
+            <Currentness_Reference>publication date</Currentness_Reference>
+         </Time_Period_of_Content>
+         <Source_Citation_Abbreviation>MAF/TIGER</Source_Citation_Abbreviation>
+         <Source_Contribution>All Line Segments</Source_Contribution>
+      </Source_Information>
+      <Process_Step>
+         <Process_Description>
+                    TIGER/Line Shapefiles are extracted from the Census MAF/TIGER
+                    database by nation, state, county, and entity. Census MAF/TIGER data for all of the
+                    aforementioned geographic entities are then distributed among the shapefiles each
+                    containing attributes for line, polygon, or landmark geographic
+                    data.
+                </Process_Description>
+         <Process_Date>2019</Process_Date>
+      </Process_Step>
+   </Data_Quality_Information>
+   <Spatial_Data_Organization_Information>
+      <Indirect_Spatial_Reference>Federal Information Processing Series (FIPS), Geographic Names
+            Information System (GNIS), and feature names.</Indirect_Spatial_Reference>
+      <Direct_Spatial_Reference_Method>Vector</Direct_Spatial_Reference_Method>
+      <Topology_Level>fullPlanarGraph</Topology_Level>
+      <SDTS_Terms_Description>
+         <SDTS_Point_and_Vector_Object_Type>curve</SDTS_Point_and_Vector_Object_Type>
+         <Point_and_Vector_Object_Count>100000</Point_and_Vector_Object_Count>
+      </SDTS_Terms_Description>
+   </Spatial_Data_Organization_Information>
+   <Spatial_Reference_Information>
+      <Map_Projection>
+         <Map_Projection_Name>NAD27 to NAD83 (1) </Map_Projection_Name>
+         <EPSG_Reference>
+            <EPSG_Code>EPSG::1241</EPSG_Code>
+            <EPSG_Code_Space>https://spatialreference.org/ref/sr-org/6928/</EPSG_Code_Space>
+            <EPSG_Version>9.8.6</EPSG_Version>
+         </EPSG_Reference>
+      </Map_Projection>
+      <Map_Projection>
+         <Map_Projection_Name>NAD27 to NAD83 (1) </Map_Projection_Name>
+         <EPSG_Reference>
+            <EPSG_Code>EPSG::1241</EPSG_Code>
+            <EPSG_Code_Space>https://spatialreference.org/ref/sr-org/6928/</EPSG_Code_Space>
+            <EPSG_Version>9.8.6</EPSG_Version>
+         </EPSG_Reference>
+      </Map_Projection>
+      <Map_Projection>
+         <Map_Projection_Name>NAD83 to WGS 84 (1) </Map_Projection_Name>
+         <EPSG_Reference>
+            <EPSG_Code>EPSG::1188</EPSG_Code>
+            <EPSG_Code_Space>https://spatialreference.org/ref/sr-org/6928/</EPSG_Code_Space>
+            <EPSG_Version>9.8.6</EPSG_Version>
+         </EPSG_Reference>
+      </Map_Projection>
+      <Map_Projection>
+         <Map_Projection_Name>NAD83 to WGS 84 (1) </Map_Projection_Name>
+         <EPSG_Reference>
+            <EPSG_Code>EPSG::1188</EPSG_Code>
+            <EPSG_Code_Space>https://spatialreference.org/ref/sr-org/6928/</EPSG_Code_Space>
+            <EPSG_Version>9.8.6</EPSG_Version>
+         </EPSG_Reference>
+      </Map_Projection>
+   </Spatial_Reference_Information>
+   <Entity_and_Attribute_Information>
+      <Feature_Catalogue_Description>
+         <FC_Title>Feature Catalog for the 2010 Census Public Use Microdata Area (PUMA) State-based</FC_Title>
+         <Included_With_Dataset>No</Included_With_Dataset>
+         <Feature_Types>Public Use Microdata Areas</Feature_Types>
+         <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/puma10/tl_2019_puma10.ea.iso.xml</FC_Online_Linkage>
+      </Feature_Catalogue_Description>
+      <Feature_Catalogue_Description>
+         <FC_Title>Feature Catalog for the 2010 Census 5-Digit ZIP Code Tabulation Area (ZCTA5) National</FC_Title>
+         <Included_With_Dataset>No</Included_With_Dataset>
+         <Feature_Types>ZIP Code Tabulation Areas</Feature_Types>
+         <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/zcta510/tl_2019_zcta510.ea.iso.xml</FC_Online_Linkage>
+      </Feature_Catalogue_Description>
+      <Feature_Catalogue_Description>
+         <FC_Title>Feature Catalog for the 2019 ACS 2019</FC_Title>
+         <Included_With_Dataset>No</Included_With_Dataset>
+         <Feature_Types>ACS 2019</Feature_Types>
+         <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/OtherEAs//ACS2019.ea.gpm.xml</FC_Online_Linkage>
+      </Feature_Catalogue_Description>
+      <Feature_Catalogue_Description>
+         <FC_Title>Feature Catalog for the 2010 Census Public Use Microdata Area (PUMA) State-based</FC_Title>
+         <Included_With_Dataset>No</Included_With_Dataset>
+         <Feature_Types>Public Use Microdata Areas</Feature_Types>
+         <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/puma10/tl_2019_puma10.ea.iso.xml</FC_Online_Linkage>
+      </Feature_Catalogue_Description>
+      <Feature_Catalogue_Description>
+         <FC_Title>Feature Catalog for the 2010 Census 5-Digit ZIP Code Tabulation Area (ZCTA5) National</FC_Title>
+         <Included_With_Dataset>No</Included_With_Dataset>
+         <Feature_Types>ZIP Code Tabulation Areas</Feature_Types>
+         <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/zcta510/tl_2019_zcta510.ea.iso.xml</FC_Online_Linkage>
+      </Feature_Catalogue_Description>
+      <Feature_Catalogue_Description>
+         <FC_Title>Feature Catalog for the 2018 ACS 2018</FC_Title>
+         <Included_With_Dataset>No</Included_With_Dataset>
+         <Feature_Types>ACS 2018</Feature_Types>
+         <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/OtherEAs//ACS2018.ea.gpm.xml</FC_Online_Linkage>
+      </Feature_Catalogue_Description>
+      <Feature_Catalogue_Description>
+         <FC_Title>Feature Catalog for the 2010 Census Public Use Microdata Area (PUMA) State-based</FC_Title>
+         <Included_With_Dataset>No</Included_With_Dataset>
+         <Feature_Types>Public Use Microdata Areas</Feature_Types>
+         <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/puma10/tl_2019_puma10.ea.iso.xml</FC_Online_Linkage>
+      </Feature_Catalogue_Description>
+      <Feature_Catalogue_Description>
+         <FC_Title>Feature Catalog for the 2010 Census 5-Digit ZIP Code Tabulation Area (ZCTA5) National</FC_Title>
+         <Included_With_Dataset>No</Included_With_Dataset>
+         <Feature_Types>ZIP Code Tabulation Areas</Feature_Types>
+         <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/zcta510/tl_2019_zcta510.ea.iso.xml</FC_Online_Linkage>
+      </Feature_Catalogue_Description>
+      <Feature_Catalogue_Description>
+         <FC_Title>Feature Catalog for the Census 2010 Census 2010</FC_Title>
+         <Included_With_Dataset>No</Included_With_Dataset>
+         <Feature_Types>Census 2010</Feature_Types>
+         <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/OtherEAs/Census2010.ea.gpm.xml</FC_Online_Linkage>
+      </Feature_Catalogue_Description>
+      <Feature_Catalogue_Description>
+         <FC_Title>Feature Catalog for the 2010 Census Public Use Microdata Area (PUMA) State-based</FC_Title>
+         <Included_With_Dataset>No</Included_With_Dataset>
+         <Feature_Types>Public Use Microdata Areas</Feature_Types>
+         <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/puma10/tl_2019_puma10.ea.iso.xml</FC_Online_Linkage>
+      </Feature_Catalogue_Description>
+      <Feature_Catalogue_Description>
+         <FC_Title>Feature Catalog for 2011 2010 Census Traffic Analysis District (TAD) National Shapefile</FC_Title>
+         <Included_With_Dataset>No</Included_With_Dataset>
+         <Feature_Types>Traffic Analysis Districts</Feature_Types>
+         <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TL2011/tad/tl_2011_us_tad10.ea.xml</FC_Online_Linkage>
+      </Feature_Catalogue_Description>
+      <Feature_Catalogue_Description>
+         <FC_Title>Feature Catolog for the 2010 Census Traffic Analysis Zone (TAZ) State-based Shapefile</FC_Title>
+         <Included_With_Dataset>No</Included_With_Dataset>
+         <Feature_Types>Traffic Analysis Zones</Feature_Types>
+         <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TL2011/taz/2011_taz10.ea.iso.xml</FC_Online_Linkage>
+      </Feature_Catalogue_Description>
+      <Feature_Catalogue_Description>
+         <FC_Title>Feature Catalog for the 2010 Census Urban Growth Area (UGA) State-based Shapefile</FC_Title>
+         <Included_With_Dataset>No</Included_With_Dataset>
+         <Feature_Types>Urban Growth Areas</Feature_Types>
+         <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/TL2012/ISO/uga10/2012_uga10.ea.iso.xml</FC_Online_Linkage>
+      </Feature_Catalogue_Description>
+      <Feature_Catalogue_Description>
+         <FC_Title>Feature Catalog for the 2010 Census 5-Digit ZIP Code Tabulation Area (ZCTA5) National</FC_Title>
+         <Included_With_Dataset>No</Included_With_Dataset>
+         <Feature_Types>ZIP Code Tabulation Areas</Feature_Types>
+         <FC_Online_Linkage>https://meta.geo.census.gov/data/existing/decennial/GEO/GPMB/TIGERline/Tiger2019/zcta510/tl_2019_zcta510.ea.iso.xml</FC_Online_Linkage>
+      </Feature_Catalogue_Description>
+   </Entity_and_Attribute_Information>
+   <Distribution_Information>
+      <Point_of_Contact>
+         <Contact_Organization>Geography Division, Spatial Products Software Branch</Contact_Organization>
+         <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+      </Point_of_Contact>
+      <Distribution_Liability>This Rest Service contains geographic data only and does not
+                include display mapping software or statistical data. For information on how to use this REST Service data
+                with specific software package users shall contact the company that produced the software. To use this REST
+                service in a web browser, reference the GeoServices REST Specification.</Distribution_Liability>
+      <Standard_Order_Process>
+         <Digital_Form>
+            <Format_Name>REST</Format_Name>
+            <Format_Version_Number>10.51</Format_Version_Number>
+            <Network_Address>
+               <Network_Resource_Name>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/PUMA_TAD_TAZ_UGA_ZCTA/MapServer</Network_Resource_Name>
+               <mimeType>text/html</mimeType>
+               <Application_Profile>http://www.geoplatform.gov/spec/esri-map-rest</Application_Profile>
+            </Network_Address>
+         </Digital_Form>
+         <Fees>The Census REST services may be accessed without charge.</Fees>
+      </Standard_Order_Process>
+   </Distribution_Information>
+   <Computer_Service_Information>
+      <Service_Type>REST Service</Service_Type>
+      <Service_Type_Version>10.51</Service_Type_Version>
+      <Coupling_Type>loose</Coupling_Type>
+      <Contains_Operations>
+         <Operation_Name>Export Map</Operation_Name>
+         <DCP>WebServices</DCP>
+         <Operation_Description>This operation exports a map image resource.</Operation_Description>
+         <Operation_Parameters>
+            <Parameter_Name>bbox</Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>The extent (bounding box) of the exported image. Unless the
+                    bboxSR parameter has been specified, the bbox is assumed to be in the spatial reference of the map.
+                </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>bbSR</Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>The spatial reference of the bbox. The spatial reference can be specified as either a well-known ID or as a
+                    spatial reference JSON object.
+                </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>layers</Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>Determines which layers appear on the exported map. There are four ways to specify which layers
+                are shown:show, hide, include and exclude.</Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>layerDefs</Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>Allows you to filter the features of individual layers in the exported map by specifying
+                    definition expressions for those layers. Definition expression for a layer that is published with the service always
+                    will be honored.</Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>size</Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>The size (width and height) of the exported image in pixels. If the size is not specified, an
+                image with a default size of 400 by 400 pixels will be exported.</Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>imageSR</Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>The spatial reference of the exported image.</Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>format</Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>The format of the exported image. The default format is .png.</Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>transparent</Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>If true, the image will be exported with the background color of the map set as its transparent
+                    color. The default is false. Only the .png and .gif formats support transparency. Internet Explorer 6 does not
+                    display transparency correctly for png24 image formats.</Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>dpi</Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>The device resolution of the exported image (dots per inch). If the dpi is not specified, an
+                image with a default dpi of 96 will be exported.</Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>time</Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>The time instant or time extent of the exported map image.</Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>layerTimeOptions</Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>The time options per layer. Users can indicate whether or not the layer should use the time extent
+                    specified by the time parameter or not, whether to draw the layer features cumulatively or not and the time offsets
+                    for the layer. </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>dynamicLayers</Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>modifies the layer drawing order, change layer drawing info, and change layer data source version
+                    for this request. New layers (dataLayer) can also be added to the dynamicLayers based on the map service registered
+                    workspaces. </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>gdbVersion</Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>Use this parameter to specify the geodatabase version.</Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>mapScale</Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>exports a map image at a specific scale, with the map centered around the center of the specified
+                bounding box (bbox).</Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>rotation</Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>exports a map image rotated at a specific angle, with the map centered around the center of the
+                specified bounding box (bbox). It could be positive or negative number.</Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>datumTransformations</Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>applies one or more datum transformations to the map when imageSR is different than the map
+                    service's spatial reference. It is an array of transformation elements.</Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>layerParameterValues</Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>filters the features of individual layers in the exported map by specifying a value or values to
+                an array of pre-authored parameterized filters for those layers</Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>mapRangeValues</Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>filters features in the exported map from all layers that are within the specified range instant or
+                extent.</Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>layerRangeValues</Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>filters the features of individual layers in the exported map by specifying a value or values to
+                an array of pre-authored parameterized filters for those layers.</Parameter_Description>
+         </Operation_Parameters>
+         <Connect_Point>
+            <CP_Link>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/PUMA_TAD_TAZ_UGA_ZCTA/MapServer/export?</CP_Link>
+            <Protocol>https </Protocol>
+            <Resource_Name>TIGERwebUrban Growth Areas, ZIP Code Tabulation Areas</Resource_Name>
+            <Resource_Description>This is the export URL.</Resource_Description>
+         </Connect_Point>
+      </Contains_Operations>
+      <Contains_Operations>
+         <Operation_Name>Identify</Operation_Name>
+         <DCP>WebServices</DCP>
+         <Operation_Description>discovers features at a geographic location</Operation_Description>
+         <Operation_Parameters>
+            <Parameter_Name>f</Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>The response format. The default response format is html.</Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>geometry </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description> The geometry to identify on </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>geometryType </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>The type of geometry specified by the geometry parameter. The geometry type could be a point,
+                    line, polygon, or an envelope.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>sr </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>The well-known ID of the spatial reference of the input and output geometries as well as the
+                    mapExtent.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>layerDefs </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>filters the features of individual layers in the exported map by specifying definition
+                    expressions for those layers.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>time </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>The time instant or the time extent of the features to be identified.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>layerTimeOptions </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>indicates whether or not the layer should use the
+                    time extent specified by the time parameter or not, whether to draw the layer features
+                    cumulatively or not and the time offsets for the layer.   </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>layers </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>The layers to perform the identify operation on.
+                    There are three ways to specify which layers to identify on: top, visible and all.
+                </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>tolerance </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>The distance in screen pixels from the specified
+                    geometry within which the identify should be performed. The value for the tolerance is an
+                    integer.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>mapExtent</Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>The extent or bounding box of the map currently being
+                    viewed. Unless the sr parameter has been specified, the mapExtent is assumed to be in the
+                    spatial reference of the map.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>imageDisplay </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>The screen image display parameters (width, height,
+                    and DPI) of the map being currently viewed.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>returnGeometry </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>If true, the resulting set will include the
+                    geometries associated with each result. The default is true.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>maxAllowableOffset </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>Specifies the maximum allowable offset to be used
+                    for generalizing geometries returned by the identify operation. The maxAllowableOffset is
+                    in the units of the sr. If sr is not specified, maxAllowableOffset is assumed to be in the
+                    unit of the spatial reference of the map.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>geometryPrecision </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>This option can be used to specify the number of
+                    decimal places in the response geometries returned by the identify operation. This applies
+                    to X and Y values only (not m or z-values).  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>dynamicLayers </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>Reorders layers and change the layer data source.
+                    dynamicLayers can also be used to add new layer that was not defined in the map used to
+                    create the map service. The new layer should have its source pointing to one
+                    of the registered workspaces that was defined at the time the map service was created.
+                </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>returnZ </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description> If true, Z (height( values will be included in the
+                    results if the features have Z values. Otherwise, Z values are not returned. The default is
+                    false.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>returnM </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description> If true, M values will be included in the results
+                    if the features have M values (distance along a linestring or edge).  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>gdbVersion </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>Switches map layers to point to an alternate geodatabase version.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>returnUnformattedValues </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>If true, the values in the result will not be formatted
+                i.e. numbers will returned as is and dates will be returned as epoch values.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>returnFieldName </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>If true, field names will be returned instead of field aliases.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>datumTransformations </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>Applies one or more datum transformations to the map
+                when sr is different than the map service's spatial reference. It is an array of
+                transformation elements.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>mapRangeValues </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>Filters features in the exported map from all layer that
+                are within the specified range instant or extent.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>layerRangeValues </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>Filters features for each individual layer that are
+                within the specified range instant or extent.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>layerParameterValues </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>Filters the features of individual layers in the
+                exported map by specifying value(s) to an array of pre-authored parameterized filters for
+                those layers. When value is not specified for any parameter in a request, the default value,
+                that is assigned during authoring time, gets used instead.
+            </Parameter_Description>
+         </Operation_Parameters>
+         <Connect_Point>
+            <CP_Link>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/PUMA_TAD_TAZ_UGA_ZCTA/MapServer/identify?</CP_Link>
+            <Protocol>https </Protocol>
+            <Resource_Name>TIGERwebUrban Growth Areas, ZIP Code Tabulation Areas</Resource_Name>
+            <Resource_Description>This is the identify URL.</Resource_Description>
+         </Connect_Point>
+      </Contains_Operations>
+      <Contains_Operations>
+         <Operation_Name>QueryDomains</Operation_Name>
+         <DCP>WebServices</DCP>
+         <Operation_Description>returns full domain information for the domains referenced by
+            the layers in the service. This operation is performed on a map service resource.
+            The operation takes an array of layer IDs and returns the set of domains referenced by the layers.
+        </Operation_Description>
+         <Operation_Parameters>
+            <Parameter_Name>f </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>The response format. The default response format is html.</Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>layers </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>An array of layers.  </Parameter_Description>
+         </Operation_Parameters>
+         <Connect_Point>
+            <CP_Link>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/PUMA_TAD_TAZ_UGA_ZCTA/MapServer/queryDomains?</CP_Link>
+            <Protocol>https </Protocol>
+            <Resource_Name>TIGERwebUrban Growth Areas, ZIP Code Tabulation Areas</Resource_Name>
+            <Resource_Description>This is the queryDomains URL.</Resource_Description>
+         </Connect_Point>
+      </Contains_Operations>
+      <Contains_Operations>
+         <Operation_Name>Find</Operation_Name>
+         <DCP>WebServices</DCP>
+         <Operation_Description>finds the value, feature ID, field name, layer ID, layer
+                name, geometry, geometry type, and attributes in the form of name-value pairs of the specified
+                search string.</Operation_Description>
+         <Operation_Parameters>
+            <Parameter_Name>f </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>The response format. The default response format is
+                    html.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>searchText </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>The search string. This is the text that is searched
+                    across the layers and fields the user specifies.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>contains </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>If false, the operation searches for an exact match
+                    of the searchText string. An exact match is case sensitive. Otherwise, it searches for a
+                    value that contains the searchText provided. This search is not case sensitive. The default
+                    is true.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>searchFields </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>The names of the fields to search. The fields are
+                    specified as a comma-separated list of field names. If this parameter is not specified,
+                    all fields are searched.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>sr </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>The well-known ID of the spatial reference of the
+                    output geometries. If sr is not specified, the output geometries are returned in the
+                    spatial reference of the map.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>layerDefs </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>filtered the features of individual layers in the
+                    exported map by specifying definition expressions for those layers. Definition expression
+                    for a layer that is published with the service will be always honored.   </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>layers </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description> The layers to perform the find operation on. The
+                    layers are specified as a comma-separated list of layer ids.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>returnGeometry </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>If true, the resultset includes the geometries
+                    associated with each result. The default is true.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>maxAllowableOffset </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>This option can be used to specify the maximum
+                    allowable offset to be used for generalizing geometries returned by the find operation. 
+                </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>geometryPrecision </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>Specifies the number of decimal places in the
+                    response geometries returned by the find operation. This applies to X and Y values only
+                    (not m or z values).  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>dynamicLayers </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>modifies the data source of existing layers in the
+                    current map service or to add new layers  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>returnZ </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description> If true, Z values will be included in the results
+                    if the features have Z values. Otherwise, Z values are not returned. The default is true.
+                </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>returnM </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>If true, M values will be included in the results if
+                    the features have M values. Otherwise, M values are not returned. The default is false.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>gdbVersion </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>Switch map layers to point to an alternate
+                    geodatabase version.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>returnUnformattedValues </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>If true, the values in the result will not be
+                    formatted i.e. numbers will returned as is and dates will be returned as epoch values.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>returnFieldName </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>If true, field names will be returned instead of 
+                    field aliases.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>datumTransformations </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description> Applies one or more datum transformations to the
+                    map when sr is different than the map service's spatial reference. It is an array of
+                    transformation elements.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>mapRangeValues </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>Allows you to filter features in the exported map
+                    from all layer that are within the specified range instant or extent.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>layerRangeValues </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>Allows you to filter features for each individual
+                    layer that are within the specified range instant or extent.  </Parameter_Description>
+         </Operation_Parameters>
+         <Operation_Parameters>
+            <Parameter_Name>layerParameterValues </Parameter_Name>
+            <Parameter_Direction>out</Parameter_Direction>
+            <Parameter_Description>Allows you to filter the features of individual
+                    layers in the exported map by specifying value(s) to an array of pre-authored
+                    parameterized filters for those layers. When value is not specified for any parameter in
+                    a request, the default value, that is assigned during authoring time, gets used instead. 
+                </Parameter_Description>
+         </Operation_Parameters>
+         <Connect_Point>
+            <CP_Link>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/PUMA_TAD_TAZ_UGA_ZCTA/MapServer/find?</CP_Link>
+            <Protocol>https </Protocol>
+            <Resource_Name>TIGERwebUrban Growth Areas, ZIP Code Tabulation Areas</Resource_Name>
+            <Resource_Description>This is the identify URL.</Resource_Description>
+         </Connect_Point>
+      </Contains_Operations>
+   </Computer_Service_Information>
+   <Metadata_Reference_Information>
+      <Metadata_Date>202002</Metadata_Date>
+      <Metadata_Parent_Identifier> Series Information File for the 2020 REST Files</Metadata_Parent_Identifier>
+      <Metadata_Hierarchy_Level>service</Metadata_Hierarchy_Level>
+      <Metadata_Hierarchy_Level_Name>This is the REST Service for the PUMAs, UGAs, and ZCTAs</Metadata_Hierarchy_Level_Name>
+      <Point_of_Contact>
+         <Contact_Organization>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</Contact_Organization>
+         <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+      </Point_of_Contact>
+      <Metadata_Standard_Name>GeoPlatform Profile of ISO 19115-1</Metadata_Standard_Name>
+      <Metadata_Standard_Version>DRAFT Revision 1</Metadata_Standard_Version>
+      <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
+      <Metadata_File_Identifier>TIGERweb_PUMAs__UGAs__and_ZCTAs.gpm.xml</Metadata_File_Identifier>
+      <Metadata_Language>eng</Metadata_Language>
+   </Metadata_Reference_Information>
+</GPM>
