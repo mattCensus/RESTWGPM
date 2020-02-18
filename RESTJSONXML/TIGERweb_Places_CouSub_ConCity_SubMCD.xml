@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<REST_File xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="RESTJSONXML.xsd">
+<currentVersion >10.51</currentVersion>
+<serviceDescription/>
+<mapName>Places and County Subdivisions</mapName>
+<description>Estates, County Subdivisions, Subbarrios, Consolidated Cities, Incorporated Places, and Census Designated Places</description>
+<copyrightText>Source: U.S. Census Bureau</copyrightText>
+<supportsDynamicLayers>false</supportsDynamicLayers>
+	<URL>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Places_CouSub_ConCity_SubMCD/MapServer</URL>
+<layers>
+	<id>0</id>
+	<name>Estates</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>325000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>1</id>
+	<name>County Subdivisions</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>1400000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>2</id>
+	<name>Subbarrios</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>325000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>3</id>
+	<name>Consolidated Cities</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>1400000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>4</id>
+	<name>Incorporated Places</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>1400000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>5</id>
+	<name>Census Designated Places</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>1400000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>6</id>
+	<name>ACS 2019</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>7</subLayerIds>
+	<subLayerIds>8</subLayerIds>
+	<subLayerIds>9</subLayerIds>
+	<subLayerIds>10</subLayerIds>
+	<subLayerIds>11</subLayerIds>
+	<subLayerIds>12</subLayerIds>
+	<minScale>0</minScale>
+	<maxScale>0</maxScale>
+</layers>
+<layers>
+	<id>7</id>
+	<name>Estates</name>
+	<parentLayerId>6</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>325000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>8</id>
+	<name>County Subdivisions</name>
+	<parentLayerId>6</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>1400000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>9</id>
+	<name>Subbarrios</name>
+	<parentLayerId>6</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>325000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>10</id>
+	<name>Consolidated Cities</name>
+	<parentLayerId>6</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>1400000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>11</id>
+	<name>Incorporated Places</name>
+	<parentLayerId>6</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>1400000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>12</id>
+	<name>Census Designated Places</name>
+	<parentLayerId>6</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>1400000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>13</id>
+	<name>ACS 2018</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>false</defaultVisibility>
+	<subLayerIds>14</subLayerIds>
+	<subLayerIds>15</subLayerIds>
+	<subLayerIds>16</subLayerIds>
+	<subLayerIds>17</subLayerIds>
+	<subLayerIds>18</subLayerIds>
+	<subLayerIds>19</subLayerIds>
+	<minScale>0</minScale>
+	<maxScale>0</maxScale>
+</layers>
+<layers>
+	<id>14</id>
+	<name>Estates</name>
+	<parentLayerId>13</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>325000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>15</id>
+	<name>County Subdivisions</name>
+	<parentLayerId>13</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>1400000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>16</id>
+	<name>Subbarrios</name>
+	<parentLayerId>13</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>325000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>17</id>
+	<name>Consolidated Cities</name>
+	<parentLayerId>13</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>1400000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>18</id>
+	<name>Incorporated Places</name>
+	<parentLayerId>13</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>1400000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>19</id>
+	<name>Census Designated Places</name>
+	<parentLayerId>13</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>1400000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>20</id>
+	<name>Census 2010</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>false</defaultVisibility>
+	<subLayerIds>21</subLayerIds>
+	<subLayerIds>22</subLayerIds>
+	<subLayerIds>23</subLayerIds>
+	<subLayerIds>24</subLayerIds>
+	<subLayerIds>25</subLayerIds>
+	<subLayerIds>26</subLayerIds>
+	<minScale>0</minScale>
+	<maxScale>0</maxScale>
+</layers>
+<layers>
+	<id>21</id>
+	<name>Estates</name>
+	<parentLayerId>20</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>325000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>22</id>
+	<name>County Subdivisions</name>
+	<parentLayerId>20</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>1400000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>23</id>
+	<name>Subbarrios</name>
+	<parentLayerId>20</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>325000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>24</id>
+	<name>Consolidated Cities</name>
+	<parentLayerId>20</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>1400000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>25</id>
+	<name>Incorporated Places</name>
+	<parentLayerId>20</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>1400000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>26</id>
+	<name>Census Designated Places</name>
+	<parentLayerId>20</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>1400000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<spatialReference>
+	<wkid>102100</wkid>
+	<latestWkid>3857</latestWkid>
+</spatialReference>
+<singleFusedMapCache>false</singleFusedMapCache>
+<initialExtent>
+	<xmin>-7447758.498377699</xmin>
+	<ymin>2032457.6822696403</ymin>
+	<xmax>-7367671.9360223</xmax>
+	<ymax>2089354.622930359</ymax>
+	<spatialReference>
+		<wkid>102100</wkid>
+		<latestWkid>3857</latestWkid>
+	</spatialReference>
+</initialExtent>
+<fullExtent>
+	<xmin>-20037700</xmin>
+	<ymin>-1.025409603E7</ymin>
+	<xmax>3.992331191E7</xmax>
+	<ymax>2.971991191E7</ymax>
+	<spatialReference>
+		<wkid>102100</wkid>
+		<latestWkid>3857</latestWkid>
+	</spatialReference>
+</fullExtent>
+<minScale>1400000</minScale>
+<maxScale>1001</maxScale>
+<units>esriMeters</units>
+<supportedImageFormatTypes>PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP</supportedImageFormatTypes>
+<documentInfo>
+	<Title/>
+	<Author/>
+	<Comments/>
+	<Subject/>
+	<Category/>
+	<AntialiasingMode>None</AntialiasingMode>
+	<TextAntialiasingMode>Force</TextAntialiasingMode>
+	<Keywords/>
+</documentInfo>
+<capabilities>Map,Data,Query</capabilities>
+<supportedQueryFormats>JSON, AMF, geoJSON</supportedQueryFormats>
+<exportTilesAllowed>false</exportTilesAllowed>
+<datumTransformations>
+	<geoTransforms>
+		<wkid>108001</wkid>
+		<latestWkid>1241</latestWkid>
+		<transformForward>true</transformForward>
+		<name>NAD_1927_To_NAD_1983_NADCON</name>
+	</geoTransforms>
+</datumTransformations>
+<datumTransformations>
+	<geoTransforms>
+		<wkid>108001</wkid>
+		<latestWkid>1241</latestWkid>
+		<transformForward>false</transformForward>
+		<name>NAD_1927_To_NAD_1983_NADCON</name>
+	</geoTransforms>
+</datumTransformations>
+<datumTransformations>
+	<geoTransforms>
+		<wkt>GEOGTRAN[&quot;WGS_1984_Major_Auxiliary_Sphere_To_WGS_1984&quot;,GEOGCS[&quot;GCS_WGS_1984_Major_Auxiliary_Sphere&quot;,DATUM[&quot;D_WGS_1984_Major_Auxiliary_Sphere&quot;,SPHEROID[&quot;WGS_1984_Major_Auxiliary_Sphere&quot;,6378137.0,0.0]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],GEOGCS[&quot;GCS_WGS_1984&quot;,DATUM[&quot;D_WGS_1984&quot;,SPHEROID[&quot;WGS_1984&quot;,6378137.0,298.257223563]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],METHOD[&quot;Longitude_Rotation&quot;]]</wkt>
+		<transformForward>true</transformForward>
+		<name>WGS_1984_Major_Auxiliary_Sphere_To_WGS_1984</name>
+	</geoTransforms>
+</datumTransformations>
+<datumTransformations>
+	<geoTransforms>
+		<wkt>GEOGTRAN[&quot;WGS_1984_Major_Auxiliary_Sphere_To_WGS_1984&quot;,GEOGCS[&quot;GCS_WGS_1984_Major_Auxiliary_Sphere&quot;,DATUM[&quot;D_WGS_1984_Major_Auxiliary_Sphere&quot;,SPHEROID[&quot;WGS_1984_Major_Auxiliary_Sphere&quot;,6378137.0,0.0]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],GEOGCS[&quot;GCS_WGS_1984&quot;,DATUM[&quot;D_WGS_1984&quot;,SPHEROID[&quot;WGS_1984&quot;,6378137.0,298.257223563]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],METHOD[&quot;Longitude_Rotation&quot;]]</wkt>
+		<transformForward>false</transformForward>
+		<name>WGS_1984_Major_Auxiliary_Sphere_To_WGS_1984</name>
+	</geoTransforms>
+</datumTransformations>
+<datumTransformations>
+	<geoTransforms>
+		<wkid>8088</wkid>
+		<latestWkid>1188</latestWkid>
+		<transformForward>true</transformForward>
+		<name>NAD_1983_To_WGS_1984_1</name>
+	</geoTransforms>
+</datumTransformations>
+<datumTransformations>
+	<geoTransforms>
+		<wkid>8088</wkid>
+		<latestWkid>1188</latestWkid>
+		<transformForward>false</transformForward>
+		<name>NAD_1983_To_WGS_1984_1</name>
+	</geoTransforms>
+</datumTransformations>
+<supportsDatumTransformation>true</supportsDatumTransformation>
+<maxRecordCount>100000</maxRecordCount>
+<maxImageHeight>4096</maxImageHeight>
+<maxImageWidth>4096</maxImageWidth>
+<supportedExtensions/>
+</REST_File>

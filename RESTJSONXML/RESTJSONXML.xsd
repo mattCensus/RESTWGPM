@@ -29,6 +29,7 @@
                 <xsd:element name="layers" type="layersGroup" maxOccurs="unbounded"/>
                 <xsd:element name="spatialReference" type="spatialReferenceType"/>
                 <xsd:element name="singleFusedMapCache"/>
+                <xsd:element name="tileInfo" type="tileInfoType" minOccurs="0"/>
                 <xsd:element name="initialExtent" type="initialExtentType"/>
                 <xsd:element name="fullExtent" type="initialExtentType"/>
                 <xsd:element name="minScale"/>
@@ -81,9 +82,11 @@
 
     <xsd:complexType name="spatialReferenceType">
         <xsd:sequence>
+            <xsd:element name="cs" minOccurs="0"/>
             <xsd:element name="wkt" minOccurs="0"/>
             <xsd:element name="wkid" minOccurs="0"/>
-            <xsd:element name="latestWkid"></xsd:element>
+            <xsd:element name="latestWkid" minOccurs="0"/>
+            
           </xsd:sequence>  
     </xsd:complexType>
     
@@ -110,4 +113,31 @@
         </xsd:sequence>
     </xsd:complexType>
   
+    <xsd:complexType name="tileInfoType">
+        <xsd:sequence>
+            <xsd:element name="rows"/>
+            <xsd:element name="cols"/>
+            <xsd:element name="dpi"/>
+            <xsd:element name="format"/>
+            <xsd:element name="compressionQuality"/>
+            <xsd:element name="origin" type="originType"/>
+            <xsd:element name="spatialReference" type="spatialReferenceType"/>
+            <xsd:element name="lods" type="lodsType" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    
+    <xsd:complexType name="originType">
+        <xsd:sequence>
+            <xsd:element name="x"/>
+            <xsd:element name="y"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    
+    <xsd:complexType name="lodsType">
+        <xsd:sequence>
+            <xsd:element name="level"/>
+            <xsd:element name="resolution"/>
+            <xsd:element name="scale"/>
+        </xsd:sequence>
+    </xsd:complexType>
 </xs:schema>

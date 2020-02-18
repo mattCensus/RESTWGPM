@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<REST_File xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="RESTJSONXML.xsd">
+<currentVersion>10.51</currentVersion>
+<serviceDescription/>
+<mapName>PUMAs, UGAs, and ZCTAs</mapName>
+<description>Urban Growth Areas, ZIP Code Tabulation Areas</description>
+<copyrightText>Source: U.S. Census Bureau</copyrightText>
+<supportsDynamicLayers>false</supportsDynamicLayers>
+	<URL>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/PUMA_TAD_TAZ_UGA_ZCTA/MapServer</URL>
+<layers>
+	<id>0</id>
+	<name>2010 Census Public Use Microdata Areas</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>12000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>1</id>
+	<name>2010 Census ZIP Code Tabulation Areas</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>3000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>2</id>
+	<name>ACS 2019</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>3</subLayerIds>
+	<subLayerIds>4</subLayerIds>
+	<minScale>0</minScale>
+	<maxScale>0</maxScale>
+</layers>
+<layers>
+	<id>3</id>
+	<name>2010 Census Public Use Microdata Areas</name>
+	<parentLayerId>2</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>12000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>4</id>
+	<name>2010 Census ZIP Code Tabulation Areas</name>
+	<parentLayerId>2</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>3000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>5</id>
+	<name>ACS 2018</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>false</defaultVisibility>
+	<subLayerIds>6</subLayerIds>
+	<subLayerIds>7</subLayerIds>
+	<minScale>0</minScale>
+	<maxScale>0</maxScale>
+</layers>
+<layers>
+	<id>6</id>
+	<name>2010 Census Public Use Microdata Areas</name>
+	<parentLayerId>5</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>12000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>7</id>
+	<name>2010 Census ZIP Code Tabulation Areas</name>
+	<parentLayerId>5</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>3000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>8</id>
+	<name>Census 2010</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>false</defaultVisibility>
+	<subLayerIds>9</subLayerIds>
+	<subLayerIds>10</subLayerIds>
+	<subLayerIds>11</subLayerIds>
+	<subLayerIds>12</subLayerIds>
+	<subLayerIds>13</subLayerIds>
+	<minScale>0</minScale>
+	<maxScale>0</maxScale>
+</layers>
+<layers>
+	<id>9</id>
+	<name>Public Use Microdata Areas</name>
+	<parentLayerId>8</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>12000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>10</id>
+	<name>Traffic Analysis Districts</name>
+	<parentLayerId>8</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>6000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>11</id>
+	<name>Traffic Analysis Zones</name>
+	<parentLayerId>8</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>650000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>12</id>
+	<name>Urban Growth Areas</name>
+	<parentLayerId>8</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>1400000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>13</id>
+	<name>ZIP Code Tabulation Areas</name>
+	<parentLayerId>8</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>3000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<spatialReference>
+	<wkid>102100</wkid>
+	<latestWkid>3857</latestWkid>
+</spatialReference>
+<singleFusedMapCache>false</singleFusedMapCache>
+<initialExtent>
+	<xmin>-1.3831017391030507E7</xmin>
+	<ymin>5315030.248686009</ymin>
+	<xmax>-1.3162149386627829E7</xmax>
+	<ymax>5790222.86573791</ymax>
+	<spatialReference>
+		<wkid>102100</wkid>
+		<latestWkid>3857</latestWkid>
+	</spatialReference>
+</initialExtent>
+<fullExtent>
+	<xmin>-20037700</xmin>
+	<ymin>-1678452.6019</ymin>
+	<xmax>2.02343675425E7</xmax>
+	<ymax>1.16526615375E7</ymax>
+	<spatialReference>
+		<wkid>102100</wkid>
+		<latestWkid>3857</latestWkid>
+	</spatialReference>
+</fullExtent>
+<minScale>12000000</minScale>
+<maxScale>1001</maxScale>
+<units>esriMeters</units>
+<supportedImageFormatTypes>PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP</supportedImageFormatTypes>
+<documentInfo>
+	<Title/>
+	<Author/>
+	<Comments/>
+	<Subject/>
+	<Category/>
+	<AntialiasingMode>None</AntialiasingMode>
+	<TextAntialiasingMode>Force</TextAntialiasingMode>
+	<Keywords/>
+</documentInfo>
+<capabilities>Map,Data,Query</capabilities>
+<supportedQueryFormats>JSON, AMF, geoJSON</supportedQueryFormats>
+<exportTilesAllowed>false</exportTilesAllowed>
+<datumTransformations>
+	<geoTransforms>
+		<wkid>108001</wkid>
+		<latestWkid>1241</latestWkid>
+		<transformForward>true</transformForward>
+		<name>NAD_1927_To_NAD_1983_NADCON</name>
+	</geoTransforms>
+</datumTransformations>
+<datumTransformations>
+	<geoTransforms>
+		<wkid>108001</wkid>
+		<latestWkid>1241</latestWkid>
+		<transformForward>false</transformForward>
+		<name>NAD_1927_To_NAD_1983_NADCON</name>
+	</geoTransforms>
+</datumTransformations>
+<datumTransformations>
+	<geoTransforms>
+		<wkt>GEOGTRAN[&quot;WGS_1984_Major_Auxiliary_Sphere_To_WGS_1984&quot;,GEOGCS[&quot;GCS_WGS_1984_Major_Auxiliary_Sphere&quot;,DATUM[&quot;D_WGS_1984_Major_Auxiliary_Sphere&quot;,SPHEROID[&quot;WGS_1984_Major_Auxiliary_Sphere&quot;,6378137.0,0.0]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],GEOGCS[&quot;GCS_WGS_1984&quot;,DATUM[&quot;D_WGS_1984&quot;,SPHEROID[&quot;WGS_1984&quot;,6378137.0,298.257223563]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],METHOD[&quot;Longitude_Rotation&quot;]]</wkt>
+		<transformForward>true</transformForward>
+		<name>WGS_1984_Major_Auxiliary_Sphere_To_WGS_1984</name>
+	</geoTransforms>
+</datumTransformations>
+<datumTransformations>
+	<geoTransforms>
+		<wkt>GEOGTRAN[&quot;WGS_1984_Major_Auxiliary_Sphere_To_WGS_1984&quot;,GEOGCS[&quot;GCS_WGS_1984_Major_Auxiliary_Sphere&quot;,DATUM[&quot;D_WGS_1984_Major_Auxiliary_Sphere&quot;,SPHEROID[&quot;WGS_1984_Major_Auxiliary_Sphere&quot;,6378137.0,0.0]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],GEOGCS[&quot;GCS_WGS_1984&quot;,DATUM[&quot;D_WGS_1984&quot;,SPHEROID[&quot;WGS_1984&quot;,6378137.0,298.257223563]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],METHOD[&quot;Longitude_Rotation&quot;]]</wkt>
+		<transformForward>false</transformForward>
+		<name>WGS_1984_Major_Auxiliary_Sphere_To_WGS_1984</name>
+	</geoTransforms>
+</datumTransformations>
+<datumTransformations>
+	<geoTransforms>
+		<wkid>8088</wkid>
+		<latestWkid>1188</latestWkid>
+		<transformForward>true</transformForward>
+		<name>NAD_1983_To_WGS_1984_1</name>
+	</geoTransforms>
+</datumTransformations>
+<datumTransformations>
+	<geoTransforms>
+		<wkid>8088</wkid>
+		<latestWkid>1188</latestWkid>
+		<transformForward>false</transformForward>
+		<name>NAD_1983_To_WGS_1984_1</name>
+	</geoTransforms>
+</datumTransformations>
+<supportsDatumTransformation>true</supportsDatumTransformation>
+<maxRecordCount>100000</maxRecordCount>
+<maxImageHeight>4096</maxImageHeight>
+<maxImageWidth>4096</maxImageWidth>
+<supportedExtensions/>
+	</REST_File>

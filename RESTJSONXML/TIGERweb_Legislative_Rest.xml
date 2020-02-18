@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<REST_File xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="../RESTJSONXML/RESTJSONXML.xsd">
+   
+<currentVersion>10.51</currentVersion>
+<serviceDescription/>
+<mapName>Legislative Areas</mapName>
+<description>Congressional Districts, Voting Districts, State Legislative Districts - Upper, State Legislative Districts - Lower</description>
+<copyrightText>Source: U.S. Census Bureau</copyrightText>
+<supportsDynamicLayers>false</supportsDynamicLayers>
+    <URL>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer</URL>
+<layers>
+    <id>0</id>
+    <name>116th Congressional Districts</name>
+    <parentLayerId>-1</parentLayerId>
+    <defaultVisibility>false</defaultVisibility>
+    <subLayerIds>null</subLayerIds>
+    <minScale>12000000</minScale>
+    <maxScale>1001</maxScale>
+</layers>
+<layers>
+    <id>1</id>
+    <name>2018 State Legislative Districts - Upper</name>
+    <parentLayerId>-1</parentLayerId>
+    <defaultVisibility>false</defaultVisibility>
+    <subLayerIds>null</subLayerIds>
+    <minScale>2500000</minScale>
+    <maxScale>1001</maxScale>
+</layers>
+<layers>
+    <id>2</id>
+    <name>2018 State Legislative Districts - Lower</name>
+    <parentLayerId>-1</parentLayerId>
+    <defaultVisibility>false</defaultVisibility>
+    <subLayerIds>null</subLayerIds>
+    <minScale>2500000</minScale>
+    <maxScale>1001</maxScale>
+</layers>
+<layers>
+    <id>3</id>
+    <name>ACS 2019</name>
+    <parentLayerId>-1</parentLayerId>
+    <defaultVisibility>true</defaultVisibility>
+    <subLayerIds>4</subLayerIds>
+    <subLayerIds>5</subLayerIds>
+    <subLayerIds>6</subLayerIds>
+    <minScale>0</minScale>
+    <maxScale>0</maxScale>
+</layers>
+<layers>
+    <id>4</id>
+    <name>116th Congressional Districts</name>
+    <parentLayerId>3</parentLayerId>
+    <defaultVisibility>true</defaultVisibility>
+    <subLayerIds>null</subLayerIds>
+    <minScale>12000000</minScale>
+    <maxScale>1001</maxScale>
+</layers>
+<layers>
+    <id>5</id>
+    <name>2019 State Legislative Districts - Upper</name>
+    <parentLayerId>3</parentLayerId>
+    <defaultVisibility>true</defaultVisibility>
+    <subLayerIds>null</subLayerIds>
+    <minScale>2500000</minScale>
+    <maxScale>1001</maxScale>
+</layers>
+<layers>
+    <id>6</id>
+    <name>2019 State Legislative Districts - Lower</name>
+    <parentLayerId>3</parentLayerId>
+    <defaultVisibility>true</defaultVisibility>
+    <subLayerIds>null</subLayerIds>
+    <minScale>2500000</minScale>
+    <maxScale>1001</maxScale>
+</layers>
+<layers>
+    <id>7</id>
+    <name>ACS 2018</name>
+    <parentLayerId>-1</parentLayerId>
+    <defaultVisibility>false</defaultVisibility>
+    <subLayerIds>8</subLayerIds>
+    <subLayerIds>9</subLayerIds>
+    <subLayerIds>10</subLayerIds>
+    <minScale>0</minScale>
+    <maxScale>0</maxScale>
+</layers>
+<layers>
+    <id>8</id>
+    <name>116th Congressional Districts</name>
+    <parentLayerId>7</parentLayerId>
+    <defaultVisibility>true</defaultVisibility>
+    <subLayerIds>null</subLayerIds>
+    <minScale>12000000</minScale>
+    <maxScale>1001</maxScale>
+</layers>
+<layers>
+    <id>9</id>
+    <name>2018 State Legislative Districts - Upper</name>
+    <parentLayerId>7</parentLayerId>
+    <defaultVisibility>true</defaultVisibility>
+    <subLayerIds>null</subLayerIds>
+    <minScale>2500000</minScale>
+    <maxScale>1001</maxScale>
+</layers>
+<layers>
+    <id>10</id>
+    <name>2018 State Legislative Districts - Lower</name>
+    <parentLayerId>7</parentLayerId>
+    <defaultVisibility>true</defaultVisibility>
+    <subLayerIds>null</subLayerIds>
+    <minScale>2500000</minScale>
+    <maxScale>1001</maxScale>
+</layers>
+<layers>
+    <id>11</id>
+    <name>Census 2010</name>
+    <parentLayerId>-1</parentLayerId>
+    <defaultVisibility>false</defaultVisibility>
+    <subLayerIds>12</subLayerIds>
+    <subLayerIds>13</subLayerIds>
+    <subLayerIds>14</subLayerIds>
+    <subLayerIds>15</subLayerIds>
+    <subLayerIds>16</subLayerIds>
+    <subLayerIds>17</subLayerIds>
+    <subLayerIds>18</subLayerIds>
+    <minScale>0</minScale>
+    <maxScale>0</maxScale>
+</layers>
+<layers>
+    <id>12</id>
+    <name>113th Congressional Districts</name>
+    <parentLayerId>11</parentLayerId>
+    <defaultVisibility>true</defaultVisibility>
+    <subLayerIds>null</subLayerIds>
+    <minScale>12000000</minScale>
+    <maxScale>1001</maxScale>
+</layers>
+<layers>
+    <id>13</id>
+    <name>111th Congressional Districts</name>
+    <parentLayerId>11</parentLayerId>
+    <defaultVisibility>true</defaultVisibility>
+    <subLayerIds>null</subLayerIds>
+    <minScale>12000000</minScale>
+    <maxScale>1001</maxScale>
+</layers>
+<layers>
+    <id>14</id>
+    <name>2013 State Legislative Districts - Upper</name>
+    <parentLayerId>11</parentLayerId>
+    <defaultVisibility>true</defaultVisibility>
+    <subLayerIds>null</subLayerIds>
+    <minScale>2500000</minScale>
+    <maxScale>1001</maxScale>
+</layers>
+<layers>
+    <id>15</id>
+    <name>2013 State Legislative Districts - Lower</name>
+    <parentLayerId>11</parentLayerId>
+    <defaultVisibility>true</defaultVisibility>
+    <subLayerIds>null</subLayerIds>
+    <minScale>2500000</minScale>
+    <maxScale>1001</maxScale>
+</layers>
+<layers>
+    <id>16</id>
+    <name>2010 State Legislative Districts - Upper</name>
+    <parentLayerId>11</parentLayerId>
+    <defaultVisibility>true</defaultVisibility>
+    <subLayerIds>null</subLayerIds>
+    <minScale>2500000</minScale>
+    <maxScale>1001</maxScale>
+</layers>
+<layers>
+    <id>17</id>
+    <name>2010 State Legislative Districts - Lower</name>
+    <parentLayerId>11</parentLayerId>
+    <defaultVisibility>true</defaultVisibility>
+    <subLayerIds>null</subLayerIds>
+    <minScale>2500000</minScale>
+    <maxScale>1001</maxScale>
+</layers>
+<layers>
+    <id>18</id>
+    <name>Voting Districts</name>
+    <parentLayerId>11</parentLayerId>
+    <defaultVisibility>true</defaultVisibility>
+    <subLayerIds>null</subLayerIds>
+    <minScale>325000</minScale>
+    <maxScale>1001</maxScale>
+</layers>
+<spatialReference>
+    <wkid>102100</wkid>
+    <latestWkid>3857</latestWkid>
+</spatialReference>
+<singleFusedMapCache>false</singleFusedMapCache>
+<initialExtent>
+    <xmin>-1.0766745686202005E7</xmin>
+    <ymin>3777153.0810617693</ymin>
+    <xmax>-9548674.959184527</xmax>
+    <ymax>4642522.948832098</ymax>
+    <spatialReference>
+        <wkid>102100</wkid>
+        <latestWkid>3857</latestWkid>
+    </spatialReference>
+</initialExtent>
+<fullExtent>
+    <xmin>-20037700</xmin>
+    <ymin>-1.02529861195E7</ymin>
+    <xmax>3.9937569599E7</xmax>
+    <ymax>2.9734169599E7</ymax>
+    <spatialReference>
+        <wkid>102100</wkid>
+        <latestWkid>3857</latestWkid>
+    </spatialReference>
+</fullExtent>
+<minScale>12000000</minScale>
+<maxScale>1001</maxScale>
+<units>esriMeters</units>
+<supportedImageFormatTypes>PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP</supportedImageFormatTypes>
+<documentInfo>
+    <Title/>
+    <Author/>
+    <Comments/>
+    <Subject/>
+    <Category/>
+    <AntialiasingMode>None</AntialiasingMode>
+    <TextAntialiasingMode>Force</TextAntialiasingMode>
+    <Keywords/>
+</documentInfo>
+<capabilities>Map,Data,Query</capabilities>
+<supportedQueryFormats>JSON, AMF, geoJSON</supportedQueryFormats>
+<exportTilesAllowed>false</exportTilesAllowed>
+<datumTransformations>
+    <geoTransforms>
+        <wkid>108001</wkid>
+        <latestWkid>1241</latestWkid>
+        <transformForward>true</transformForward>
+        <name>NAD_1927_To_NAD_1983_NADCON</name>
+    </geoTransforms>
+</datumTransformations>
+<datumTransformations>
+    <geoTransforms>
+        <wkid>108001</wkid>
+        <latestWkid>1241</latestWkid>
+        <transformForward>false</transformForward>
+        <name>NAD_1927_To_NAD_1983_NADCON</name>
+    </geoTransforms>
+</datumTransformations>
+<supportsDatumTransformation>true</supportsDatumTransformation>
+<maxRecordCount>100000</maxRecordCount>
+<maxImageHeight>4096</maxImageHeight>
+<maxImageWidth>4096</maxImageWidth>
+<supportedExtensions/>
+</REST_File>

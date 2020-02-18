@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<REST_File>
+	
+<currentVersion>10.51</currentVersion>
+<serviceDescription/>
+<mapName>Hydrography</mapName>
+<description>Linear and areal hydrography</description>
+<copyrightText>Source: U.S. Census Bureau</copyrightText>
+<supportsDynamicLayers>true</supportsDynamicLayers>
+<URL>https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Hydro/MapServer</URL>
+<layers>
+	<id>0</id>
+	<name>Linear Hydrography</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>325000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>1</id>
+	<name>Areal Hydrography</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>80000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<layers>
+	<id>2</id>
+	<name>Glaciers</name>
+	<parentLayerId>-1</parentLayerId>
+	<defaultVisibility>true</defaultVisibility>
+	<subLayerIds>null</subLayerIds>
+	<minScale>40000000</minScale>
+	<maxScale>1001</maxScale>
+</layers>
+<spatialReference>
+	<wkid>102100</wkid>
+	<latestWkid>3857</latestWkid>
+</spatialReference>
+<singleFusedMapCache>true</singleFusedMapCache>
+<tileInfo>
+	<rows>256</rows>
+	<cols>256</cols>
+	<dpi>96</dpi>
+	<format>PNG32</format>
+	<compressionQuality>0</compressionQuality>
+	<origin>
+		<x>-2.0037508342787E7</x>
+		<y>2.0037508342787E7</y>
+	</origin>
+	<spatialReference>
+		<wkid>102100</wkid>
+		<latestWkid>3857</latestWkid>
+	</spatialReference>
+	<lods>
+		<level>0</level>
+		<resolution>156543.03392800014</resolution>
+		<scale>5.91657527591555E8</scale>
+	</lods>
+	<lods>
+		<level>1</level>
+		<resolution>78271.51696399994</resolution>
+		<scale>2.95828763795777E8</scale>
+	</lods>
+	<lods>
+		<level>2</level>
+		<resolution>39135.75848200009</resolution>
+		<scale>1.47914381897889E8</scale>
+	</lods>
+	<lods>
+		<level>3</level>
+		<resolution>19567.87924099992</resolution>
+		<scale>7.3957190948944E7</scale>
+	</lods>
+	<lods>
+		<level>4</level>
+		<resolution>9783.93962049996</resolution>
+		<scale>3.6978595474472E7</scale>
+	</lods>
+	<lods>
+		<level>5</level>
+		<resolution>4891.96981024998</resolution>
+		<scale>1.8489297737236E7</scale>
+	</lods>
+	<lods>
+		<level>6</level>
+		<resolution>2445.98490512499</resolution>
+		<scale>9244648.868618</scale>
+	</lods>
+	<lods>
+		<level>7</level>
+		<resolution>1222.992452562495</resolution>
+		<scale>4622324.434309</scale>
+	</lods>
+	<lods>
+		<level>8</level>
+		<resolution>611.4962262813797</resolution>
+		<scale>2311162.217155</scale>
+	</lods>
+	<lods>
+		<level>9</level>
+		<resolution>305.74811314055756</resolution>
+		<scale>1155581.108577</scale>
+	</lods>
+	<lods>
+		<level>10</level>
+		<resolution>152.87405657041106</resolution>
+		<scale>577790.554289</scale>
+	</lods>
+	<lods>
+		<level>11</level>
+		<resolution>76.43702828507324</resolution>
+		<scale>288895.277144</scale>
+	</lods>
+	<lods>
+		<level>12</level>
+		<resolution>38.21851414253662</resolution>
+		<scale>144447.638572</scale>
+	</lods>
+	<lods>
+		<level>13</level>
+		<resolution>19.10925707126831</resolution>
+		<scale>72223.819286</scale>
+	</lods>
+	<lods>
+		<level>14</level>
+		<resolution>9.554628535634155</resolution>
+		<scale>36111.909643</scale>
+	</lods>
+	<lods>
+		<level>15</level>
+		<resolution>4.77731426794937</resolution>
+		<scale>18055.954822</scale>
+	</lods>
+	<lods>
+		<level>16</level>
+		<resolution>2.388657133974685</resolution>
+		<scale>9027.977411</scale>
+	</lods>
+	<lods>
+		<level>17</level>
+		<resolution>1.1943285668550503</resolution>
+		<scale>4513.988705</scale>
+	</lods>
+	<lods>
+		<level>18</level>
+		<resolution>0.5971642835598172</resolution>
+		<scale>2256.994353</scale>
+	</lods>
+	<lods>
+		<level>19</level>
+		<resolution>0.29858214164761665</resolution>
+		<scale>1128.497176</scale>
+	</lods>
+</tileInfo>
+<initialExtent>
+	<xmin>-1.7488386615258716E7</xmin>
+	<ymin>-2296894.3027238054</ymin>
+	<xmax>-8902334.879132748</xmax>
+	<ymax>3803006.376897334</ymax>
+	<spatialReference>
+		<cs>pcs</cs>
+		<wkid>102100</wkid>
+	</spatialReference>
+</initialExtent>
+<fullExtent>
+	<xmin>-1.99529126986E7</xmin>
+	<ymin>-1644352.3327</ymin>
+	<xmax>2.00228837304E7</xmax>
+	<ymax>1.15557912509E7</ymax>
+	<spatialReference>
+		<cs>pcs</cs>
+		<wkid>102100</wkid>
+	</spatialReference>
+</fullExtent>
+<minScale>5.91657527591555E8</minScale>
+<maxScale>1128.497176</maxScale>
+<units>esriMeters</units>
+<supportedImageFormatTypes>PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP</supportedImageFormatTypes>
+<documentInfo>
+	<Title/>
+	<Author/>
+	<Comments/>
+	<Subject/>
+	<Category/>
+	<AntialiasingMode>None</AntialiasingMode>
+	<TextAntialiasingMode>Force</TextAntialiasingMode>
+	<Keywords/>
+</documentInfo>
+<capabilities>Map,Data,Query</capabilities>
+<supportedQueryFormats>JSON, AMF, geoJSON</supportedQueryFormats>
+<exportTilesAllowed>false</exportTilesAllowed>
+<datumTransformations>
+	<geoTransforms>
+		<wkid>108001</wkid>
+		<latestWkid>1241</latestWkid>
+		<transformForward>true</transformForward>
+		<name>NAD_1927_To_NAD_1983_NADCON</name>
+	</geoTransforms>
+</datumTransformations>
+<datumTransformations>
+	<geoTransforms>
+		<wkid>108001</wkid>
+		<latestWkid>1241</latestWkid>
+		<transformForward>false</transformForward>
+		<name>NAD_1927_To_NAD_1983_NADCON</name>
+	</geoTransforms>
+</datumTransformations>
+<datumTransformations>
+	<geoTransforms>
+		<wkt>GEOGTRAN[&quot;WGS_1984_Major_Auxiliary_Sphere_To_WGS_1984&quot;,GEOGCS[&quot;GCS_WGS_1984_Major_Auxiliary_Sphere&quot;,DATUM[&quot;D_WGS_1984_Major_Auxiliary_Sphere&quot;,SPHEROID[&quot;WGS_1984_Major_Auxiliary_Sphere&quot;,6378137.0,0.0]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],GEOGCS[&quot;GCS_WGS_1984&quot;,DATUM[&quot;D_WGS_1984&quot;,SPHEROID[&quot;WGS_1984&quot;,6378137.0,298.257223563]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],METHOD[&quot;Longitude_Rotation&quot;]]</wkt>
+		<transformForward>true</transformForward>
+		<name>WGS_1984_Major_Auxiliary_Sphere_To_WGS_1984</name>
+	</geoTransforms>
+</datumTransformations>
+<datumTransformations>
+	<geoTransforms>
+		<wkt>GEOGTRAN[&quot;WGS_1984_Major_Auxiliary_Sphere_To_WGS_1984&quot;,GEOGCS[&quot;GCS_WGS_1984_Major_Auxiliary_Sphere&quot;,DATUM[&quot;D_WGS_1984_Major_Auxiliary_Sphere&quot;,SPHEROID[&quot;WGS_1984_Major_Auxiliary_Sphere&quot;,6378137.0,0.0]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],GEOGCS[&quot;GCS_WGS_1984&quot;,DATUM[&quot;D_WGS_1984&quot;,SPHEROID[&quot;WGS_1984&quot;,6378137.0,298.257223563]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],METHOD[&quot;Longitude_Rotation&quot;]]</wkt>
+		<transformForward>false</transformForward>
+		<name>WGS_1984_Major_Auxiliary_Sphere_To_WGS_1984</name>
+	</geoTransforms>
+</datumTransformations>
+<datumTransformations>
+	<geoTransforms>
+		<wkid>8088</wkid>
+		<latestWkid>1188</latestWkid>
+		<transformForward>true</transformForward>
+		<name>NAD_1983_To_WGS_1984_1</name>
+	</geoTransforms>
+</datumTransformations>
+<datumTransformations>
+	<geoTransforms>
+		<wkid>8088</wkid>
+		<latestWkid>1188</latestWkid>
+		<transformForward>false</transformForward>
+		<name>NAD_1983_To_WGS_1984_1</name>
+	</geoTransforms>
+</datumTransformations>
+<supportsDatumTransformation>true</supportsDatumTransformation>
+<maxRecordCount>100000</maxRecordCount>
+<maxImageHeight>4096</maxImageHeight>
+<maxImageWidth>4096</maxImageWidth>
+<supportedExtensions/>
+</REST_File>
