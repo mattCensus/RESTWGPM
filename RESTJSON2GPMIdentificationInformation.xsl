@@ -15,12 +15,14 @@
     exclude-result-prefixes="fn grp vmf xs xsi xsl xd">
     <xsl:import href="../REST2GPM/RESTJSON2GPMAbstract.xsl"/>
     <xsl:import href="../REST2GPM/RESTJSON2GPMKeywords.xsl"/>
+    <xsl:import href="../REST2GPM/RESTJSON2GPMMapName.xsl"/>
+    
     <xsl:template name="IdInfo">
         <xsl:element name="Identification_Information">
             <xsl:element name="Citation">
                 <xsl:element name="Originator">U.S. Department of Commerce, U.S. Census Bureau, Geography Division</xsl:element>
                 <xsl:element name="Publication_Date">2020</xsl:element>
-                <xsl:element name="Title"><xsl:value-of select="/REST_File/mapName"/></xsl:element>
+                <xsl:call-template name="mapName"/>
                 <xsl:element name="Geospatial_Data_Presentation_Form">Web Mapping Service</xsl:element>
             </xsl:element>
             <xsl:element name="Description">
